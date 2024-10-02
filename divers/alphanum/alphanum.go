@@ -26,6 +26,30 @@ var numList []rune = []rune{
 	'0', '1', '2', '3', '4', '5', '6', '7', '8', '9',
 }
 
+
 func alphanum(s string) (isAlphanum bool) {
-	return
+	isAlphanum = true
+	
+	for i := 0; i < len(s); i ++ {
+
+		var isAlpha bool = false
+		for j := 0; j < len(alphaList); j ++ {
+			if string(s[i]) == string(alphaList[j]) {
+				isAlpha = true
+			}
+		}
+
+		var isNum bool = false
+		for j := 0; j < len(numList); j ++ {
+			if string(s[i]) == string(numList[j]) {
+				isAlpha = true
+			}
+		}
+		if !isNum && !isAlpha {
+			isAlphanum = false
+		}
+
+	}
+
+	return isAlphanum
 }
