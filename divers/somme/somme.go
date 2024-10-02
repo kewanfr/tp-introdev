@@ -16,5 +16,9 @@ qu'est la somme d'un tableau vide.
 */
 
 func somme(tab []int) (res int) {
+	res = 0
+	for i := 0; i < len(tab); i++ {
+		res += tab[i]
+	}
 	return res
 }
