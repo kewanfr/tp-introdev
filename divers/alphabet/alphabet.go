@@ -24,5 +24,49 @@ de m1 est avant le j-ième caractère de m2 dans l'alphabet.
 */
 
 func alphabet(m1, m2 string) (m1avantm2 bool) {
+
+ 	// Var si chaque lettre analysée était égale
+	var seulementEgal bool = false
+
+	// Boucle dans chaque lettre, avec condition d'arrêt pour les deux
+	for i := 0; i < len(m1) && i < len(m2); i++ {
+
+		if m1[i] == m2[i] {
+			// Si la lettre est la même
+			// Pour le moment, m1 est avant m2 et chaque lettre était égale
+			m1avantm2 = true
+			if(seulementEgal) {
+				seulementEgal = true
+			}
+
+		} else if m1[i] < m2[i] {
+			// Si la lettre de m1 est avant celle de m2
+			// Pour le moment, m1 est avant m2, mais tt les lettres ne sont pas égales
+			m1avantm2 = true
+			seulementEgal = false
+			break
+		} else if m1[i] > m2[i] {
+			// Si la lettre de m2 est après
+			// m1 est forcément après m2
+			m1avantm2 = false
+			seulementEgal = false
+			break
+		}
+	}
+
+
+	if len(m2) < len(m1) && seulementEgal{
+		m1avantm2 = false
+	}
+
+	if m1 == "" {
+		m1avantm2 = true
+	}
+
+	if m1 == m2 {
+		m1avantm2 = false
+	}
+
+
 	return m1avantm2
 }
