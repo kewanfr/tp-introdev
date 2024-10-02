@@ -1,5 +1,9 @@
 package riz
 
+import (
+	"math"
+)
+
 /*
 Dans un tableau, on place un grain de riz dans la première case, deux grains de riz dans la deuxième, quatre dans la troisième et ainsi de suite (2 fois plus de grains de riz dans chaque case que dans la précédente). On souhaite connaître le nombre total de grains de riz qu'il y aura dans un tableau en fonction de sa longueur (c'est-à-dire en fonction de son nombre de cases).
 
@@ -16,5 +20,7 @@ On considérera que les longueurs de tableaux prises dans le tests seront toujou
 */
 
 func riz(longueur int) (num int) {
-	return
+
+	num = int(math.Pow(2, float64(longueur))) - 1
+	return num
 }
