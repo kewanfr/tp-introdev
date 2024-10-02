@@ -18,5 +18,30 @@ var majuscules string = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 var chiffres string = "0123456789"
 
 func estSolide(mdp string) (solide bool) {
-	return
+
+	var uneLettreMin bool = false
+	var uneLettreMaj bool = false
+	var unChiffre bool = false
+
+	for i := 0; i < len(mdp); i ++ {
+		for j := 0; j < len(majuscules); j ++ {
+			if string(mdp[i]) == string(majuscules[j]) {
+				uneLettreMaj = true
+			}
+			if string(mdp[i]) == string(minuscules[j]) {
+				uneLettreMin = true
+			}
+		}
+
+
+		for l := 0; l < len(chiffres); l ++ {
+			if string(mdp[i]) == string(chiffres[l]) {
+				unChiffre = true
+			}
+		}
+	}
+
+	solide = uneLettreMaj && uneLettreMin && unChiffre && len(mdp) >= 8
+
+	return solide
 }

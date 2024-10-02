@@ -7,3 +7,4 @@ Résolu le 02/10/2024
 - [X] divers/alphanum Résolu - Difficulté: 2/5
 - [X] divers/factorielle Résolu - Difficulté: 2/5
 - [X] divers/riz Résolu - Difficulté: 1/5
+- [X] divers/motdepasse Résolu - Difficulté: 1/5
