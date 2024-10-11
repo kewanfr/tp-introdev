@@ -1,5 +1,7 @@
 package conway
 
+import "log"
+
 /*
 La suite de Conway (ou suite audioactive) est définie de la manière suivante :
 - le premier terme (u(0)) est 1,
@@ -30,5 +32,42 @@ rapportera pas de points.
 */
 
 func conway(n int) (un []int) {
-	return un
+
+  if n == 0 {
+    return []int{1}
+  }
+
+  return algo_conway(conway(n-1))
+}
+
+func algo_conway(un []int) ([]int) {
+  var precedent int = un[0]
+  var count int = 0
+  var newUn []int
+  for i := 0; i < len(un); i++ {
+    if un[i] == precedent {
+      count++
+    } else {
+      newUn = append(newUn, count)
+      newUn = append(newUn, precedent)
+      precedent = un[i]
+      count = 1
+    }
+  }
+  newUn = append(newUn, count)
+  newUn = append(newUn, precedent)
+  log.Print(un, newUn)
+  return newUn
+}
+
+
+// n = 2
+
+// un = conway(1)
+//   precedent = 1
+
+// conway(conway(1) -> {1})
+
+func main() {
+  log.Print(conway(1))
 }
