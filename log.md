@@ -17,5 +17,6 @@ Le 11/10/2024:
 - [X] recursivite/suite-conditionnelle Résolu - Difficulté: 2/5
 - [X] recursivite/factorielle Résolu - Difficulté: 2/5
 - [X] pointeurs/somme Résolu - Difficulté: 2/5
+- [X] recherche/egalite Résolu - Difficulté: 2/5
 
 <!-- 🎉  -->

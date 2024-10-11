@@ -24,5 +24,23 @@ répondre la fonction egalite.
 */
 
 func egalite(t1, t2 []int) (egaux bool) {
+	egaux = true
+	for i := 0; i < len(t1); i++ {
+		var est_present bool = false
+		for j := 0; j < len(t2); j++ {
+			if t2[j] == t1[i]{
+				est_present = true
+			}
+		}
+		if !est_present {
+			egaux = false
+		}
+		est_present = false
+	}
+
+	if len(t2) > len(t1){
+		egaux = false
+	}
+
 	return egaux
 }
