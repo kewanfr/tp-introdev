@@ -20,5 +20,17 @@ Pour cet exercice, les boucles for sont interdites
 */
 
 func terme(n uint) (un int) {
+	if n == 0 {
+		return 2
+	}
+
+	var un_1 int = terme(n-1)
+
+	if un_1 >= 100 {
+		un = un_1 - 100
+	} else {
+		un = 2*un_1 + 1
+	}
+
 	return un
 }
