@@ -11,3 +11,4 @@ Résolu le 02/10/2024
 - [X] pointers/add Résolu - Difficulté: 1/5
 - [X] structures/titre Résolu - Difficulté: 1/5
 - [X] pointeurs/setval Résolu - Difficulté: 1/5
+- [X] recursivite/conway Résolu - Difficulté: 4/5
