@@ -16,5 +16,6 @@ données en paramètres, sans modifier ces valeurs.
 */
 
 func addptr(ax, ay *int) (sum int) {
+	sum = *ax + (*ay)
 	return sum
 }
