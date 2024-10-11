@@ -14,5 +14,6 @@ Résolu le 02/10/2024
 - [X] recursivite/conway Résolu - Difficulté: 4/5
 - [X] recursivite/suite-conditionnelle Résolu - Difficulté: 2/5
 - [X] recursivite/factorielle Résolu - Difficulté: 2/5
+- [X] pointeurs/somme Résolu - Difficulté: 2/5
 
 <!-- 🎉  -->
