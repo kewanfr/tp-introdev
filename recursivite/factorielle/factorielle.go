@@ -20,5 +20,12 @@ factorielle(5) = 120
 */
 
 func factorielle(n uint) (fact uint) {
+
+	if n == 0 {
+		return 1
+	}
+
+	fact =  n * factorielle(n-1)
+	
 	return fact
 }
