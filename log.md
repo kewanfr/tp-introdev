@@ -8,3 +8,5 @@ Résolu le 02/10/2024
 - [X] divers/factorielle Résolu - Difficulté: 2/5
 - [X] divers/riz Résolu - Difficulté: 1/5
 - [X] divers/motdepasse Résolu - Difficulté: 1/5
+- [X] pointers/add Résolu - Difficulté: 1/5
+- [X] structures/titre Résolu - Difficulté: 1/5
