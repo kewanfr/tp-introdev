@@ -37,6 +37,6 @@ TP Effectués:
 - [X] recherche/doublons2 Résolu - Difficulté: 3/5 (15 min)
 - [X] recherche/recherche Résolu - Difficulté: 1/5 (5 min)
 
-- [] recursivite/suite
+- [X] recursivite/suite Résolu - Difficulté: 2/5 (5 min)
 
 <!-- 🎉  -->

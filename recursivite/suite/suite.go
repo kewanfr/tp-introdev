@@ -16,5 +16,12 @@ une fonction qui n'est pas récursive rapportera moins de points.
 */
 
 func suite(n uint) (un uint) {
+
+	if n == 0 {
+		return 0
+	}
+
+	un = 3*suite(n - 1) + 5
+
 	return un
 }
