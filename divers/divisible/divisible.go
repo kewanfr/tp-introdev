@@ -15,5 +15,12 @@ La fonction estDivisible doit indiquer, étant donnés deux entiers positifs ou 
 */
 
 func estDivisible(n, m uint) (reponse bool) {
-	return
+
+	if m > n {
+		reponse = m % n == 0
+	}else {
+		reponse = n % m == 0
+	}
+
+	return reponse
 }

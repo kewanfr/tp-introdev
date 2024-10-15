@@ -44,7 +44,7 @@ TP Effectués:
 
 - [X] divers/bougies Résolu - Difficulté: 2/5 (5 min)
 - [] divers/decimales
-- [] divers/divisible
+- [X] divers/divisible Résolu - Difficulté: 1/5 (1 min)
 
 - [] pointeurs/setval
 
