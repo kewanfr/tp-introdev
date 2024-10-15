@@ -14,5 +14,14 @@ package multipleDeTrois
 */
 
 func unMultipleDeTrois(t []int) (multiple int) {
-	return
+
+	multiple = -1
+
+	for i :=0; i < len(t); i++ {
+		if t[i] % 3 == 0 {
+			multiple = t[i]
+		}
+	}
+
+	return multiple
 }

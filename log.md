@@ -50,7 +50,7 @@ TP Effectués:
 
 - [X] recherche/deuxgrands Résolu - Difficulté 3/4 (10 min)
 - [X] recherche/moitie Résolu - Difficulté 2/4 (5 min)
-- [] recherche/multipledetrois
+- [X] recherche/multipledetrois Résolu - Difficulté 1/4 (1 min)
 - [] recherche/plusquezero
 
 - [] recursivite/suitemoinssimple
