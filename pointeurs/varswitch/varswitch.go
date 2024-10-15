@@ -14,4 +14,8 @@ sorties.
 2021-2022, test 1, exercice 2
 */
 
-func varswitch(ax, ay *int) {}
+func varswitch(ax, ay *int) {
+	var valAx int = *ax
+	*ax = *ay
+	*ay = valAx
+}
