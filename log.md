@@ -34,10 +34,9 @@ TP Effectués:
 - [X] pointeurs/varswitch Résolu - Difficulté 1/5 (1 min)
 
 - [X] recherche/compte Résolu - Difficulté: 2/5 (5 min)
-- [] recherche/doublons2
+- [X] recherche/doublons2 Résolu - Difficulté: 3/5 (15 min)
 - [] recherche/recherche
 
 - [] recursivite/suite
-
 
 <!-- 🎉  -->

@@ -20,5 +20,26 @@ fois chaque entier entre 1 et len(tab) et false sinon
 */
 
 func doublons(tab []int) (ok bool) {
+	var verif map[int]int = make(map[int]int)
+
+	ok = true
+	for i := 0; i < len(tab); i++ {
+
+		val := tab[i]
+
+		_, existVerif := verif[val]
+		if existVerif {
+			verif[val] += 1
+			ok = false
+		}else {
+			verif[val] = 1
+		}
+
+		if val > len(tab) || val < 1{
+			ok = false
+		}
+
+	}
+
 	return ok
 }
