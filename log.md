@@ -9,6 +9,7 @@ Le 02/10/2024:
 - [X] divers/riz Résolu - Difficulté: 1/5
 - [X] divers/motdepasse Résolu - Difficulté: 1/5
 
+
 Le 11/10/2024:
 - [X] pointers/add Résolu - Difficulté: 1/5
 - [X] structures/titre Résolu - Difficulté: 1/5
@@ -19,12 +20,13 @@ Le 11/10/2024:
 - [X] pointeurs/somme Résolu - Difficulté: 2/5
 - [X] recherche/egalite Résolu - Difficulté: 2/5
 
+
 Le 15/10/2024 - Entrainement Test machine 1 (2021-2022):
 - [X] divers/alphabet déjà fait le 02/10/2024
 - [X] divers/calcul déjà fait le 02/10/2024
 - [X] divers/somme  déjà fait le 02/10/2024
 
-- [] pointeurs/double
+- [X] pointeurs/double Résolu - Difficulté: 1/5 (5 min)
 - [] pointeurs/varswitch
 
 - [] recherche/compte
