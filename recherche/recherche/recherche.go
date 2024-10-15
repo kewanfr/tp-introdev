@@ -18,5 +18,16 @@ tab. Si la valeur v n'est pas présente, il faut l'indiquer en retournant false.
 */
 
 func trouve(a int, t []int) (pos int, existe bool) {
-	return
+
+	pos = -1
+	existe = false
+
+	for i := 0; i < len(t); i++ {
+		if t[i] == a {
+			existe = true
+			pos = i
+		}
+	}
+
+	return pos, existe
 }

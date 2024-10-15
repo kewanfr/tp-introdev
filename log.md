@@ -35,7 +35,7 @@ TP Effectués:
 
 - [X] recherche/compte Résolu - Difficulté: 2/5 (5 min)
 - [X] recherche/doublons2 Résolu - Difficulté: 3/5 (15 min)
-- [] recherche/recherche
+- [X] recherche/recherche Résolu - Difficulté: 1/5 (5 min)
 
 - [] recursivite/suite
 
