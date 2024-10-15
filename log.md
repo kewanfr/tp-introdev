@@ -1,6 +1,6 @@
 TP Effectués:
 
-Le 02/10/2024:
+# Le 02/10/2024:
 - [X] divers/calcul Résolu - Difficulté: 1/5
 - [X] divers/somme Résolu - Difficulté: 1/5
 - [X] divers/alphabet Résolu - Difficulté: 3/5
@@ -10,7 +10,7 @@ Le 02/10/2024:
 - [X] divers/motdepasse Résolu - Difficulté: 1/5
 
 
-Le 11/10/2024:
+# Le 11/10/2024:
 - [X] pointers/add Résolu - Difficulté: 1/5
 - [X] structures/titre Résolu - Difficulté: 1/5
 - [X] pointeurs/setval Résolu - Difficulté: 1/5
@@ -21,7 +21,9 @@ Le 11/10/2024:
 - [X] recherche/egalite Résolu - Difficulté: 2/5
 
 
-Le 15/10/2024 - Entrainement Test machine 1 (2021-2022):
+# Le 15/10/2024
+
+## Entrainement Test machine 1 (2021-2022):
 - [X] divers/alphabet déjà fait le 02/10/2024
 - [X] divers/calcul déjà fait le 02/10/2024
 - [X] divers/somme  déjà fait le 02/10/2024
