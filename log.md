@@ -23,13 +23,15 @@ TP Effectués:
 
 # Le 15/10/2024
 
+- [X] recherche/doublons1 Résolu - Difficulté: 2/5 (5 min)
+
 ## Entrainement Test machine 1 (2021-2022):
 - [X] divers/alphabet déjà fait le 02/10/2024
 - [X] divers/calcul déjà fait le 02/10/2024
 - [X] divers/somme  déjà fait le 02/10/2024
 
-- [X] pointeurs/double Résolu - Difficulté: 1/5 (5 min)
-- [X] pointeurs/varswitch Résolu - Difficulté 1/5 (5 min)
+- [X] pointeurs/double Résolu - Difficulté: 1/5 (1 min)
+- [X] pointeurs/varswitch Résolu - Difficulté 1/5 (1 min)
 
 - [X] recherche/compte Résolu - Difficulté: 2/5 (5 min)
 - [] recherche/doublons2
