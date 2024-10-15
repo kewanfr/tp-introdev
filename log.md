@@ -56,4 +56,20 @@ TP Effectués:
 - [X] recursivite/suitemoinssimple Résolu - Difficulté 2/4 (1 min)
 - [X] recursivite/suitesimple Résolu - Difficulté 2/4 (1 min)
 
+# Entrainement Test machine 1 (2023-2024):
+
+- [] recherche/comptemax 
+- [] recherche/comptevrai
+- [] recherche/dernier
+- [] recherche/interval2
+- [] recherche/multiplesdedeux
+- [] recherche/recherche (mise à jour)
+
+- [] recursivite/ateddybearpicnic
+- [] recursivite/suitedouble
+- [] recursivite/suitesimple2
+
+- [] tri/classement
+
+
 <!-- 🎉  -->
