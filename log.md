@@ -46,7 +46,7 @@ TP Effectués:
 - [] divers/decimales
 - [X] divers/divisible Résolu - Difficulté: 1/5 (1 min)
 
-- [] pointeurs/setval
+- [X] pointeurs/setval déjà fait le 11/10/2024
 
 - [] recherche/deuxgrands
 - [] recherche/moitie
