@@ -66,7 +66,7 @@ TP Effectués:
 - [] recherche/recherche (mise à jour)
 
 - [] recursivite/ateddybearpicnic
-- [] recursivite/suitedouble
+- [X] recursivite/suitedouble Résolu - Difficulté 2/4 (1 min)
 - [] recursivite/suitesimple2
 
 - [X] tri/classement Résolu - Difficulté 2/5 (5 min)
