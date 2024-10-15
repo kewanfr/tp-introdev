@@ -14,5 +14,14 @@ La fonction tousPositifs indique si tous les nombres contenus dans un tableau so
 */
 
 func tousPositifs(t []int) (reponse bool) {
-	return
+
+	reponse = true
+
+	for i := 0; i < len(t); i++ {
+		if t[i] <= 0 {
+			reponse = false
+		}
+	}
+
+	return reponse
 }
