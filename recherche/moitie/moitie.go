@@ -14,5 +14,16 @@ La fonction moitieDePositifs indique si au moins de la moitié des nombres conte
 */
 
 func moitieDePositifs(t []int) (reponse bool) {
-	return
+
+	var nbSup0 float32 = 0
+
+	for i := 0; i < len(t); i++ {
+		if t[i] > 0 {
+			nbSup0 += 1
+		}
+	}
+
+	reponse = nbSup0 >= (float32(len(t)) / float32(2))
+
+	return reponse
 }
