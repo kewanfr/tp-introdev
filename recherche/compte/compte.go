@@ -16,5 +16,13 @@ tableau tab.
 */
 
 func compte(tab []int, v int) (num int) {
+	num = 0
+
+	for i := 0; i < len(tab); i ++ {
+		if tab[i] == v {
+			num ++;
+		}
+	}
+
 	return num
 }
