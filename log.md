@@ -54,6 +54,6 @@ TP Effectués:
 - [X] recherche/plusquezero Résolu - Difficulté 1/4 (1 min)
 
 - [X] recursivite/suitemoinssimple Résolu - Difficulté 2/4 (1 min)
-- [] recursivite/suitesimple
+- [X] recursivite/suitesimple Résolu - Difficulté 2/4 (1 min)
 
 <!-- 🎉  -->

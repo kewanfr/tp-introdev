@@ -18,5 +18,9 @@ Les boucles ne sont pas autorisées pour résoudre cet exercice
 */
 
 func terme(n int) (un int) {
-	return
+	if n == 0 {
+		return 1
+	}
+
+	return (17 * terme(n - 1)) % 13
 }
