@@ -53,7 +53,7 @@ TP Effectués:
 - [X] recherche/multipledetrois Résolu - Difficulté 1/4 (1 min)
 - [X] recherche/plusquezero Résolu - Difficulté 1/4 (1 min)
 
-- [] recursivite/suitemoinssimple
+- [X] recursivite/suitemoinssimple Résolu - Difficulté 2/4 (1 min)
 - [] recursivite/suitesimple
 
 <!-- 🎉  -->

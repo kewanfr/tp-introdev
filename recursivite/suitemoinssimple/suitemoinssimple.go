@@ -21,5 +21,20 @@ Les boucles ne sont pas autorisées pour résoudre cet exercice
 */
 
 func terme(n int) (un int) {
-	return
+
+	// Cas de base
+	if n == 0 {
+		return 1
+	}
+
+	var uNm1 int = terme(n - 1) // Récup de u(n-1)
+
+	// Si u(n-1) est divisible par 2
+	if uNm1 % 2 == 0 {
+		return 3*uNm1 + 3
+	}
+
+	// Sinon
+	return uNm1 - 1
+	
 }
