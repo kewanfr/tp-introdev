@@ -27,7 +27,7 @@ Le 15/10/2024 - Entrainement Test machine 1 (2021-2022):
 - [X] divers/somme  déjà fait le 02/10/2024
 
 - [X] pointeurs/double Résolu - Difficulté: 1/5 (5 min)
-- [] pointeurs/varswitch
+- [X] pointeurs/varswitch Résolu - Difficulté 1/5 (5 min)
 
 - [] recherche/compte
 - [] recherche/doublons2
