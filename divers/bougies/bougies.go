@@ -24,5 +24,16 @@ bougies(25, 2, 1990) = 3
 */
 
 func bougies(jour, mois, annee uint) (numBougies uint) {
-	return
+
+	numBougies = annee - 1986
+
+	if (mois < 4 || (mois == 4 && jour < 17)) {
+		numBougies -= 1
+	}
+
+	if annee < 1986 || (annee == 1986 && mois < 4) || (annee == 1986 && mois == 4 && jour < 17){
+		numBougies = 0
+	}
+
+	return numBougies
 }
