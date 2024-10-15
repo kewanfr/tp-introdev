@@ -19,4 +19,19 @@ Le 11/10/2024:
 - [X] pointeurs/somme Résolu - Difficulté: 2/5
 - [X] recherche/egalite Résolu - Difficulté: 2/5
 
+Le 15/10/2024 - Entrainement Test machine 1 (2021-2022):
+- [X] divers/alphabet déjà fait le 02/10/2024
+- [X] divers/calcul déjà fait le 02/10/2024
+- [X] divers/somme  déjà fait le 02/10/2024
+
+- [] pointeurs/double
+- [] pointeurs/varswitch
+
+- [] recherche/compte
+- [] recherche/doublons2
+- [] recherche/recherche
+
+- [] recursivite/suite
+
+
 <!-- 🎉  -->
