@@ -48,7 +48,7 @@ TP Effectués:
 
 - [X] pointeurs/setval déjà fait le 11/10/2024
 
-- [] recherche/deuxgrands
+- [X] recherche/deuxgrands Résolu - Difficulté 3/4 (10 min)
 - [] recherche/moitie
 - [] recherche/multipledetrois
 - [] recherche/plusquezero
