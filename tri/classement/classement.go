@@ -14,5 +14,25 @@ La fonction classer doit trier un tableau de booléen en séparant d'un côté l
 */
 
 func classer(t []bool) (tri []bool) {
-	return
+
+	var nbTrue int = 0
+	var nbFalse int = 0
+
+	for i := 0; i < len(t); i ++ {
+		if t[i] {
+			nbTrue++
+		} else {
+			nbFalse++
+		}
+	}
+
+	for i := 0; i < nbTrue; i ++ {
+		tri = append(tri, true)
+	}
+
+	for i := 0; i < nbFalse; i ++ {
+		tri = append(tri, false)
+	}
+
+	return tri
 }

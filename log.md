@@ -69,7 +69,7 @@ TP Effectués:
 - [] recursivite/suitedouble
 - [] recursivite/suitesimple2
 
-- [] tri/classement
+- [X] tri/classement Résolu - Difficulté 2/5 (5 min)
 
 
 <!-- 🎉  -->
