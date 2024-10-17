@@ -14,5 +14,14 @@ La fonction sontMultiples doit dire si oui ou non tous les nombres contenus dans
 */
 
 func sontMultiples(t []int) (ok bool) {
-	return
+
+	ok = true
+
+	for i := 0; i < len(t); i ++ {
+		if t[i] % 2 != 0 {
+			ok = false
+		}
+	}
+
+	return ok
 }

@@ -69,7 +69,7 @@ TP Effectués:
 - [X] recherche/comptevrai Résolu - Difficulté 1/5 (1 min) (à noter)
 - [X] recherche/dernier Résolu - Difficulté 1/5 (1 min) (à noter)
 - [X] recherche/interval2 Résolu - Difficulté 1/5 (1 min) (à noter)
-- [] recherche/multiplesdedeux
+- [X] recherche/multiplesdedeux Résolu - Difficulté 2/5 (5 min) (à noter)
 - [] recherche/recherche (mise à jour)
 
 - [] recursivite/ateddybearpicnic
