@@ -16,5 +16,15 @@ package recherchedernier
 */
 
 func trouveDernier(a int, t []int) (pos int, existe bool) {
-	return
+
+	existe = false
+
+	for i :=0; i < len(t); i ++ {
+		if t[i] == a {
+			pos = i
+			existe = true
+		}
+	}
+
+	return pos, existe
 }
