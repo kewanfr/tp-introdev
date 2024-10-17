@@ -15,5 +15,22 @@ La fonction compteMax doit trouver le plus grand entier dans un tableau et indiq
 */
 
 func compteMax(t []int) (val, nombre int) {
-	return
+
+	var max int = 0
+	nombre = 0
+
+	for i := 0; i < len(t); i++ {
+		if t[i] > max{
+			if max != t[i] {
+				nombre = 0
+			}
+			max = t[i]
+		}
+
+		if t[i] == max {
+			nombre += 1
+		}
+	}
+
+	return max, nombre
 }

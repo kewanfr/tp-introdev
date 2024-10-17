@@ -58,7 +58,14 @@ TP Effectués:
 
 # Entrainement Test machine 1 (2023-2024):
 
-- [] recherche/comptemax 
+
+- [X] recursivite/suitedouble Résolu - Difficulté 2/4 (1 min)
+- [X] recursivite/suitesimple2 Résolu - Difficulté 2/4 (1 min)
+
+- [X] tri/classement Résolu - Difficulté 2/5 (5 min)
+
+# Le 17/10/2024
+- [X] recherche/comptemax Résolu - Difficulté 2/5 (5 min) (à noter sur le site)
 - [] recherche/comptevrai
 - [] recherche/dernier
 - [] recherche/interval2
@@ -66,10 +73,6 @@ TP Effectués:
 - [] recherche/recherche (mise à jour)
 
 - [] recursivite/ateddybearpicnic
-- [X] recursivite/suitedouble Résolu - Difficulté 2/4 (1 min)
-- [X] recursivite/suitesimple2 Résolu - Difficulté 2/4 (1 min)
-
-- [X] tri/classement Résolu - Difficulté 2/5 (5 min)
 
 
 <!-- 🎉  -->
