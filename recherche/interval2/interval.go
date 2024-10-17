@@ -17,5 +17,16 @@ La fonction dansInterval doit indiquer la position dans un tableau d'un flottant
 */
 
 func dansInterval(inf, sup float64, t []float64) (pos int, existe bool) {
-	return
+
+	existe = false
+	pos = -1
+
+	for i :=0; i < len(t); i++ {
+		if inf < t[i] && t[i] < sup {
+			pos = i
+			existe = true
+		}
+	}
+
+	return pos, existe
 }

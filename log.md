@@ -68,7 +68,7 @@ TP Effectués:
 - [X] recherche/comptemax Résolu - Difficulté 2/5 (5 min) (à noter sur le site)
 - [X] recherche/comptevrai Résolu - Difficulté 1/5 (1 min) (à noter)
 - [X] recherche/dernier Résolu - Difficulté 1/5 (1 min) (à noter)
-- [] recherche/interval2
+- [X] recherche/interval2 Résolu - Difficulté 1/5 (1 min) (à noter)
 - [] recherche/multiplesdedeux
 - [] recherche/recherche (mise à jour)
 
