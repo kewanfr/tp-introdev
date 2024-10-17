@@ -13,6 +13,8 @@ le travail de la fonction doublons.
 1 à len(tab) dans l'ordre et false sinon
 */
 
+// RÉSOLU - 15/10/2024
+
 func doublons(tab []int) (ok bool) {
 
 	ok = true
