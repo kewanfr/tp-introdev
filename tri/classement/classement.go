@@ -13,6 +13,9 @@ La fonction classer doit trier un tableau de booléen en séparant d'un côté l
 - 2023-2024, test 1, exercice 4
 */
 
+// RÉSOLU - 15/10/2024
+// TEST 1 - 2023-2024
+
 func classer(t []bool) (tri []bool) {
 
 	var nbTrue int = 0
