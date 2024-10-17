@@ -11,6 +11,8 @@ On considère un ensemble d'adresses d'entiers (des pointeurs) stockées dans un
 2022-2023, test 2, exercice 2
 */
 
+// RÉSOLU - 11/10/2024
+
 func somme(t []*int, res *int) {
 
 	*res = 0

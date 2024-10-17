@@ -15,6 +15,8 @@ On dispose d'une structure de données permettant de réprésenter des livres av
 2022-2023, test3, exercice 2
 */
 
+// RÉSOLU - 11/10/2024
+
 type livre struct {
 	titre    string
 	prix     float64

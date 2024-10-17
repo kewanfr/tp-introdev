@@ -19,6 +19,8 @@ factorielle(5) = 120
 2021-2022, test3, exercice 0
 */
 
+// RÉSOLU - 11/10/2024
+
 func factorielle(n uint) (fact uint) {
 
 	if n == 0 {

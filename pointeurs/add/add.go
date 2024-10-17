@@ -15,6 +15,8 @@ données en paramètres, sans modifier ces valeurs.
 2021-2022, test2, exercice 0
 */
 
+// RÉSOLU - 11/10/2024
+
 func addptr(ax, ay *int) (sum int) {
 	sum = *ax + (*ay)
 	return sum

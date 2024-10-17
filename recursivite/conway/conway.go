@@ -29,6 +29,8 @@ rapportera pas de points.
 2021-2022, test2, exercice 8
 */
 
+// RÉSOLU - 11/10/2024
+
 func conway(n int) (un []int) {
 
   if n == 0 {

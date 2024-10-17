@@ -19,6 +19,8 @@ Pour cet exercice, les boucles for sont interdites
 2022-2023, test 2, exercice 1
 */
 
+// RÉSOLU - 11/10/2024
+
 func terme(n uint) (un int) {
 	if n == 0 {
 		return 2

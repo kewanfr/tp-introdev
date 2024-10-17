@@ -23,6 +23,8 @@ répondre la fonction egalite.
 2023-2024, test 2, exercice 6
 */
 
+// RÉSOLU - 11/10/2024
+
 func egalite(t1, t2 []int) (egaux bool) {
 	egaux = true
 	for i := 0; i < len(t1); i++ {
