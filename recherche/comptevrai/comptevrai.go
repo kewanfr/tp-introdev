@@ -14,5 +14,14 @@ La fonction compteVrai doit indiquer combien de fois la valeur true apparaît da
 */
 
 func compteVrai(t []bool) (nombre int) {
-	return
+
+	nombre = 0
+
+	for i:= 0; i < len(t); i ++ {
+		if t[i] {
+			nombre++
+		}
+	}
+
+	return nombre
 }
