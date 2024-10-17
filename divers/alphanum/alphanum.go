@@ -13,6 +13,8 @@ On appelle caratères alphanumériques les lettres minuscules, les lettres majus
 2023-2024, test 2, exercice 3
 */
 
+// RÉSOLU - 02/10/2024
+
 var alphaList []rune = []rune{
 	'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j',
 	'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't',

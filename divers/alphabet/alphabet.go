@@ -23,6 +23,8 @@ de m1 est avant le j-ième caractère de m2 dans l'alphabet.
 2021-2022, test 1, exercice 7
 */
 
+// RÉSOLU - 02/10/2024
+
 func alphabet(m1, m2 string) (m1avantm2 bool) {
 
  	// Var si chaque lettre analysée était égale

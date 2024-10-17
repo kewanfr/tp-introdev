@@ -13,6 +13,8 @@ On considère qu'un mot de passe est assez solide s'il contient au moins une let
 2023-2024, test 3, exercice 1
 */
 
+// RÉSOLU - 02/10/2024
+
 var minuscules string = "abcdefghijklmnopqrstuvwxyz"
 var majuscules string = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 var chiffres string = "0123456789"

@@ -13,6 +13,9 @@ nul. Pour rappel : 0! = 1 et pour n > 0, n! = n*(n-1)*(n-2)*...*1.
 # Exemple
 factorielle(5) = 120
 */
+
+// RÉSOLU - 02/10/2024
+
 func factorielle(n uint) (fact uint) {
 
 	fact = 1

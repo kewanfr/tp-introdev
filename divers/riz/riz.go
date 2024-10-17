@@ -19,6 +19,8 @@ On considérera que les longueurs de tableaux prises dans le tests seront toujou
 2023-2024, test 3, exercice 5
 */
 
+// RÉSOLU - 02/10/2024
+
 func riz(longueur int) (num int) {
 
 	num = int(math.Pow(2, float64(longueur))) - 1

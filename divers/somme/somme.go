@@ -15,6 +15,8 @@ qu'est la somme d'un tableau vide.
 2021-2022, test 1, exercice 4
 */
 
+// RÉSOLU - 02/10/2024
+
 func somme(tab []int) (res int) {
 	res = 0
 	for i := 0; i < len(tab); i++ {
