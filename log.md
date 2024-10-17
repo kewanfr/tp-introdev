@@ -67,7 +67,7 @@ Exercices Effectués:
 - [X] [recherche/dernier](./recherche/dernier) Résolu - Difficulté 1/5 (1 min) (à noter)
 - [X] [recherche/interval2](./recherche/interval2) Résolu - Difficulté 1/5 (1 min) (à noter)
 - [X] [recherche/multiplesdedeux](./recherche/multiplesdedeux) Résolu - Difficulté 2/5 (5 min) (à noter)
-- [ ] [recherche/recherche](./recherche/recherche) (mise à jour)
+- [X] [recherche/recherche2](./recherche/recherche2) (mise à jour) Résolu - Difficulté 2/5 (5 min) (à noter)
 
 - [ ] [recursivite/ateddybearpicnic](./recursivite/ateddybearpicnic)
 

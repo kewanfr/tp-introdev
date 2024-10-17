@@ -20,5 +20,14 @@ strictement positif dans tab)
 */
 
 func recherche(tab []int) (trouve bool, pos, val int) {
+	val = 0
+	for i :=0; i < len(tab); i ++ {
+		if tab[i] > 0 && (val == 0|| tab[i] < val) {
+			val = tab[i]
+			pos = i
+			trouve = true
+		}
+	}
+
 	return trouve, pos, val
 }
