@@ -19,6 +19,9 @@ fois chaque entier entre 1 et len(tab) et false sinon
 2021-2022, test 1, exercice 8
 */
 
+// RÉSOLU - 15/10/2024
+// TEST 1 - 2021-2022
+
 func doublons(tab []int) (ok bool) {
 	var verif map[int]int = make(map[int]int)
 

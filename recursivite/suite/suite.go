@@ -15,6 +15,9 @@ une fonction qui n'est pas récursive rapportera moins de points.
 2021-2022, test 1, exercice 3
 */
 
+// RÉSOLU - 15/10/2024
+// TEST 1 - 2021-2022
+
 func suite(n uint) (un uint) {
 
 	if n == 0 {

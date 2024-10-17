@@ -14,6 +14,9 @@ sorties.
 2021-2022, test 1, exercice 2
 */
 
+// RÉSOLU - 15/10/2024
+// TEST 1 - 2021-2022
+
 func varswitch(ax, ay *int) {
 	var valAx int = *ax
 	*ax = *ay

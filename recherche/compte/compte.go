@@ -15,6 +15,9 @@ tableau tab.
 2021-2022, test 1, exercice 6
 */
 
+// RÉSOLU - 15/10/2024
+// TEST 1 - 2021-2022
+
 func compte(tab []int, v int) (num int) {
 	num = 0
 

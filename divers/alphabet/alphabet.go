@@ -24,6 +24,7 @@ de m1 est avant le j-ième caractère de m2 dans l'alphabet.
 */
 
 // RÉSOLU - 02/10/2024
+// TEST 1 - 2021-2022 
 
 func alphabet(m1, m2 string) (m1avantm2 bool) {
 
