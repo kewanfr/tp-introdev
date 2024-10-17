@@ -41,7 +41,7 @@ Exercices Effectués:
 ## Entrainement Test machine 1 (2022-2023):
 
 - [X] [divers/bougies](./divers/bougies) Résolu - Difficulté: 2/5 (5 min)
-- [] [divers/decimales](./divers/decimales)
+- [ ] [divers/decimales](./divers/decimales)
 - [X] [divers/divisible](./divers/divisible) Résolu - Difficulté: 1/5 (1 min)
 
 - [X] [pointeurs/setval](./pointeurs/setval) déjà fait le 11/10/2024
@@ -67,8 +67,8 @@ Exercices Effectués:
 - [X] [recherche/dernier](./recherche/dernier) Résolu - Difficulté 1/5 (1 min) (à noter)
 - [X] [recherche/interval2](./recherche/interval2) Résolu - Difficulté 1/5 (1 min) (à noter)
 - [X] [recherche/multiplesdedeux](./recherche/multiplesdedeux) Résolu - Difficulté 2/5 (5 min) (à noter)
-- [] [recherche/recherche](./recherche/recherche) (mise à jour)
+- [ ] [recherche/recherche](./recherche/recherche) (mise à jour)
 
-- [] [recursivite/ateddybearpicnic](./recursivite/ateddybearpicnic)
+- [ ] [recursivite/ateddybearpicnic](./recursivite/ateddybearpicnic)
 
 <!-- 🎉  -->
