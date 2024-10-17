@@ -12,6 +12,7 @@ La fonction set fixe la valeur stockée à l'adresse indiquée par un pointeur �
 */
 
 // RÉSOLU - 11/10/2024
+// TEST 1 - 2022-2023
 
 func set(ptr *int, x int) {
 	*ptr = x

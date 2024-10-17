@@ -32,6 +32,9 @@ trouveCycle(7, 11) = 63
 2022-2023, test 1, exercice 9 (dans le test il n'était pas demandé de traiter les cas d'erreur)
 */
 
+// NON RÉSOLU
+// TEST 1 - 2022-2023
+
 func trouveCycle(x, y uint) (cycle uint, err error) {
 	return
 }

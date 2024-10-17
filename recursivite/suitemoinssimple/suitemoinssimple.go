@@ -20,6 +20,9 @@ Les boucles ne sont pas autorisées pour résoudre cet exercice
 2022-2023, test 1, exercice 7
 */
 
+// RÉSOLU - 15/10/2024
+// TEST 1 - 2022-2023
+
 func terme(n int) (un int) {
 
 	// Cas de base

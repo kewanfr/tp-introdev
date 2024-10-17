@@ -17,6 +17,9 @@ Les boucles ne sont pas autorisées pour résoudre cet exercice
 2022-2023, test 4, exercice 0
 */
 
+// RÉSOLU - 15/10/2024
+// TEST 1 - 2022-2023
+
 func terme(n int) (un int) {
 	if n == 0 {
 		return 1

@@ -13,6 +13,9 @@ La fonction moitieDePositifs indique si au moins de la moitié des nombres conte
 2022-2023, test 1, exercice 6
 */
 
+// RÉSOLU - 15/10/2024
+// TEST 1 - 2022-2023
+
 func moitieDePositifs(t []int) (reponse bool) {
 
 	var nbSup0 float32 = 0

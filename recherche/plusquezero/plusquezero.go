@@ -13,6 +13,9 @@ La fonction tousPositifs indique si tous les nombres contenus dans un tableau so
 2022-2023, test 1, exercice 3
 */
 
+// RÉSOLU - 15/10/2024
+// TEST 1 - 2022-2023
+
 func tousPositifs(t []int) (reponse bool) {
 
 	reponse = true

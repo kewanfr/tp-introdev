@@ -14,6 +14,9 @@ La fonction lesDeuxPlusGrands retourne les deux plus grands entiers présents da
 2022-2023, test 1, exercice 8
 */
 
+// RÉSOLU - 15/10/2024
+// TEST 1 - 2022-2023
+
 func lesDeuxPlusGrands(t []int) (v1, v2 int) {
 
 

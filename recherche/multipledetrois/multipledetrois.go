@@ -13,6 +13,9 @@ package multipleDeTrois
 2022-2023, test 1, exercice 2
 */
 
+// RÉSOLU - 15/10/2024
+// TEST 1 - 2022-2023
+
 func unMultipleDeTrois(t []int) (multiple int) {
 
 	multiple = -1
