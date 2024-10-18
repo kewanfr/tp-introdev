@@ -16,5 +16,22 @@ Cette fonction ne doit pas modifier le tableau donné en entrée.
 */
 
 func tri(tinit []int) (tfin []int) {
+
+	tfin = append(tfin, tinit...)
+
+	// Tri par insertion
+
+	for i := 0; i < len(tfin); i ++ {
+		var v = tfin[i]
+		var j = i - 1
+
+		for j >= 0 && tfin[j] > v {
+			tfin[j + 1] = tfin[j]
+			j--
+		}
+
+		tfin[j + 1] = v
+	}
+
 	return tfin
 }

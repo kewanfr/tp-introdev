@@ -61,7 +61,7 @@ Exercices Effectués:
 
 - [X] [tri/classement](./tri/classement) Résolu - Difficulté 2/5 (5 min)
 
-# Le 17/10/2024
+## Le 17/10/2024
 - [X] [recherche/comptemax](./recherche/comptemax) Résolu - Difficulté 2/5 (5 min) (à noter sur le site)
 - [X] [recherche/comptevrai](./recherche/comptevrai) Résolu - Difficulté 1/5 (1 min) (à noter)
 - [X] [recherche/dernier](./recherche/dernier) Résolu - Difficulté 1/5 (1 min) (à noter)
@@ -70,5 +70,9 @@ Exercices Effectués:
 - [X] [recherche/recherche2](./recherche/recherche2) (mise à jour) Résolu - Difficulté 2/5 (5 min) (à noter)
 
 - [ ] [recursivite/ateddybearpicnic](./recursivite/ateddybearpicnic)
+
+# Le 18/10/2024
+
+- [X] [tri/tri](./tri/tri) Résolu - Difficulté 3/5 (15 min)
 
 <!-- 🎉  -->
