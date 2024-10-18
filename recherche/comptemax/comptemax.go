@@ -14,6 +14,9 @@ La fonction compteMax doit trouver le plus grand entier dans un tableau et indiq
 - 2023-2024, test 1, exercice 7
 */
 
+// RÉSOLU - 17/10/2024
+// TEST 1 - 2023-2024
+
 func compteMax(t []int) (val, nombre int) {
 
 	var max int = 0

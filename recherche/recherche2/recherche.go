@@ -19,6 +19,9 @@ strictement positif dans tab)
 2021-2022, test2, exercice 2
 */
 
+// RÉSOLU - 17/10/2024
+// TEST 1 - 2023-2024
+
 func recherche(tab []int) (trouve bool, pos, val int) {
 	val = 0
 	for i :=0; i < len(tab); i ++ {

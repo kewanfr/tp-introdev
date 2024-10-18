@@ -16,6 +16,9 @@ La fonction dansInterval doit indiquer la position dans un tableau d'un flottant
 - 2023-2024, test 1, exercice 5
 */
 
+// RÉSOLU - 17/10/2024
+// TEST 1 - 2023-2024
+
 func dansInterval(inf, sup float64, t []float64) (pos int, existe bool) {
 
 	existe = false

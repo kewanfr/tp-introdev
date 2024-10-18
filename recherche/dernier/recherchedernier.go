@@ -15,6 +15,9 @@ package recherchedernier
 - 2023-2024, test 1, exercice 6
 */
 
+// RÉSOLU - 17/10/2024
+// TEST 1 - 2023-2024
+
 func trouveDernier(a int, t []int) (pos int, existe bool) {
 
 	existe = false
