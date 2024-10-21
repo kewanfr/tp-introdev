@@ -62,12 +62,12 @@ Exercices Effectués:
 - [X] [tri/classement](./tri/classement) Résolu - Difficulté 2/5 (5 min)
 
 ## Le 17/10/2024
-- [X] [recherche/comptemax](./recherche/comptemax) Résolu - Difficulté 2/5 (5 min) (à noter sur le site)
-- [X] [recherche/comptevrai](./recherche/comptevrai) Résolu - Difficulté 1/5 (1 min) (à noter)
-- [X] [recherche/dernier](./recherche/dernier) Résolu - Difficulté 1/5 (1 min) (à noter)
-- [X] [recherche/interval2](./recherche/interval2) Résolu - Difficulté 1/5 (1 min) (à noter)
-- [X] [recherche/multiplesdedeux](./recherche/multiplesdedeux) Résolu - Difficulté 2/5 (5 min) (à noter)
-- [X] [recherche/recherche2](./recherche/recherche2) (mise à jour) Résolu - Difficulté 2/5 (5 min) (à noter)
+- [X] [recherche/comptemax](./recherche/comptemax) Résolu - Difficulté 2/5 (5 min)
+- [X] [recherche/comptevrai](./recherche/comptevrai) Résolu - Difficulté 1/5 (1 min)
+- [X] [recherche/dernier](./recherche/dernier) Résolu - Difficulté 1/5 (1 min)
+- [X] [recherche/interval2](./recherche/interval2) Résolu - Difficulté 1/5 (1 min)
+- [X] [recherche/multiplesdedeux](./recherche/multiplesdedeux) Résolu - Difficulté 2/5 (5 min)
+- [X] [recherche/recherche2](./recherche/recherche2) (mise à jour) Résolu - Difficulté 2/5 (5 min)
 
 - [ ] [recursivite/ateddybearpicnic](./recursivite/ateddybearpicnic)
 
