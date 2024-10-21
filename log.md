@@ -75,4 +75,8 @@ Exercices Effectués:
 
 - [X] [tri/tri](./tri/tri) Résolu - Difficulté 3/5 (15 min)
 
+# Le 21/10/2024
+
+- [X] [fichiers/existe](./fichiers/existe/) Résolu - Difficulté 2/5 (5 min)
+
 <!-- 🎉  -->
