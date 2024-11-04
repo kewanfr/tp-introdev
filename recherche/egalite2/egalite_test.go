@@ -2,50 +2,52 @@ package egalite
 
 import "testing"
 
-func TestVide(t *testing.T) {
-	if !egalite([]int{}, []int{}) {
-		t.Fail()
-	}
-	if !egalite(nil, []int{}) {
-		t.Fail()
-	}
-	if !egalite([]int{}, nil) {
-		t.Fail()
-	}
-	if !egalite(nil, nil) {
+func TestEgal(t *testing.T) {
+	if !egal([]int{1, 2, 3, 1}, []int{1, 1, 2, 3}) {
 		t.Fail()
 	}
 }
 
-func TestVrai(t *testing.T) {
-	if !egalite([]int{1, 2, 3, 4, 5}, []int{2, 4, 3, 1, 5}) {
+func TestDifferent(t *testing.T) {
+	if egal([]int{1, 2, 3}, []int{1, 1, 2, 3}) {
 		t.Fail()
 	}
 }
 
-func TestFaux(t *testing.T) {
-	if egalite([]int{1, 2, 3, 4, 5}, []int{1, 4, 3, 6, 5}) {
+// Ajoutés après le test
+
+func TestEgal2(t *testing.T) {
+	if !egal([]int{}, []int{}) {
 		t.Fail()
 	}
 }
 
-func TestLongueur(t *testing.T) {
-	if egalite([]int{}, []int{1}) {
-		t.Fail()
-	}
-	if egalite([]int{1}, []int{}) {
+func TestEgal3(t *testing.T) {
+	if !egal([]int{1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, []int{1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}) {
 		t.Fail()
 	}
 }
 
-func TestMultipleVrai(t *testing.T) {
-	if !egalite([]int{1, 2, 3, 4, 5, 1, 1, 2, 3, 3, 3}, []int{1, 2, 4, 2, 3, 3, 1, 3, 1, 3, 5}) {
+func TestEgal4(t *testing.T) {
+	if !egal([]int{3, 1, 1, 2, 2, 2, 99, 1, 1, 1, 1, 2, 2, 2, 2, 1, 1, 1, 1, 3, 1, 2, 2, 2, 1, 1, 1, 3, 1, 1}, []int{1, 1, 1, 1, 3, 1, 99, 1, 2, 1, 2, 2, 2, 1, 3, 3, 1, 1, 1, 2, 2, 2, 1, 1, 1, 2, 2, 2, 1, 1}) {
 		t.Fail()
 	}
 }
 
-func TestMultipleFaux(t *testing.T) {
-	if egalite([]int{1, 2, 2, 3, 4, 5}, []int{1, 4, 3, 6, 5}) {
+func TestDifferent2(t *testing.T) {
+	if egal([]int{1, 1, 1, 1, 1, 1}, []int{1, 1, 1, 1, 1}) {
+		t.Fail()
+	}
+}
+
+func TestDifferent3(t *testing.T) {
+	if egal([]int{1, 1, 1, 2, 2, 2, 1, 1, 1}, []int{2, 1, 1, 2, 1, 2, 1, 1}) {
+		t.Fail()
+	}
+}
+
+func TestDifferent4(t *testing.T) {
+	if egal([]int{1, 1, 1, 2, 2, 2, 1, 1, 1}, []int{2, 1, 1, 2, 1, 2, 1, 1, 3}) {
 		t.Fail()
 	}
 }

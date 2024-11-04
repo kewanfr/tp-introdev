@@ -21,6 +21,7 @@ répondre la fonction egalite.
 # Info
 2021-2022, test 2, exercice 3
 2023-2024, test 2, exercice 6
+2024-2025, test 1, exercice 6
 */
 
 // RÉSOLU - 11/10/2024
