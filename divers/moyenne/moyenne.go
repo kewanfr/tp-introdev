@@ -14,5 +14,12 @@ package moyenne
 */
 
 func moyenne(t []float64) (m float64) {
-	return
+
+	var sum float64 = 0
+
+	for i := 0; i < len(t); i ++ {
+		sum += t[i]
+	}
+
+	return sum/float64(len(t))
 }

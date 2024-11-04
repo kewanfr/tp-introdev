@@ -79,4 +79,11 @@ Exercices Effectués:
 
 - [X] [fichiers/existe](./fichiers/existe/) Résolu - Difficulté 2/5 (5 min)
 
+# 2024-2025 Test machine 1
+
+## Le 04/11/2024
+
+- [X] [divers/moyenne](./divers/moyenne/) Résolu - Difficulté 1/5 (1 min)
+
+
 <!-- 🎉  -->
