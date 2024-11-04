@@ -81,9 +81,10 @@ Exercices Effectués:
 
 # 2024-2025 Test machine 1
 
-## Le 04/11/2024
+## Le 04/11/2024 (à rajouter)
 
 - [X] [divers/moyenne](./divers/moyenne/) Résolu - Difficulté 1/5 (1 min)
+- [X] [recherche/egalite2](./recherche/egalite2/) Résolu - Difficulté 2/5 (5 min)
 
 
 <!-- 🎉  -->

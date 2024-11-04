@@ -15,6 +15,33 @@ package egalite
 */
 
 func egal(t1, t2 []int) (sontEgaux bool) {
-	return
+
+	if len(t1) != len(t2) {
+		sontEgaux = false
+		return sontEgaux
+	}
+
+	sontEgaux = true
+	for i := 0; i < len(t1); i ++ {
+		var countInT1 int = 0
+		for j := 0; j < len(t1); j ++ {
+			if t1[j] == t1[i] {
+				countInT1 ++
+			}
+		}
+
+		var countInT2 int = 0
+		for k := 0; k < len(t1); k ++ {
+			if t2[k] == t1[i] {
+				countInT2 ++
+			}
+		}
+
+		if countInT1 != countInT2 {
+			sontEgaux = false
+		}
+	}
+
+	return sontEgaux
 }
 
