@@ -17,4 +17,6 @@ type personne struct {
 	estMajeur bool
 }
 
-func (p *personne) verifieMajeur() {}
+func (p *personne) verifieMajeur() {
+	p.estMajeur = p.age >= 18
+}
