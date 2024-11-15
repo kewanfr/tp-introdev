@@ -23,5 +23,16 @@ Votre fonction devra pouvoir calculer U(1000) en moins de 2 secondes
 */
 
 func terme(n int) (un int) {
-	return
+
+	if n == 0 {
+		return 1
+	}
+
+	uNm1 := terme(n-1)
+
+	if n > 0 && uNm1 > 0 && 100 % uNm1 == 0 {
+		return uNm1 - 1
+	}
+
+	return (uNm1 + 11) % 100
 }
