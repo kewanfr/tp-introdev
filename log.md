@@ -110,5 +110,6 @@ Exercices Effectués:
 - [X] [recursivite/suitemoinssimple2](./recursivite/suitemoinssimple2/) Résolu - Difficulté 3/5 (10 min)
 - [X] [recursivite/recherche](./recursivite/recherche/) Résolu - Difficulté 3/5 (10 min)
 - [X] [recherche/positifs](./recherche/positifs/) Résolu - Difficulté 3/5 (10 min)
+- [X] [structures/pages](./structures/pages/) Résolu - Difficulté 2/5 (5 min)
 
 <!-- 🎉  -->
