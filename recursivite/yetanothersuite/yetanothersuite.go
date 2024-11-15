@@ -16,5 +16,12 @@ Pour cet exercice les boucles for sont interdites.
 */
 
 func terme(n uint) (un int) {
-	return
+
+	if n == 0 {
+		return 1
+	}
+
+	uNm1 := terme(n-1)
+	
+	return uNm1*uNm1 + 1
 }

@@ -101,7 +101,7 @@ Exercices Effectués:
 - [X] [recherche/doublons6](./recherche/doublons6/) Résolu - Difficulté 2/5 (5 min)
 - [X] [recursivite/ppcm](./recursivite/ppcm/) Résolu - Difficulté 2/5 (5 min)
 - [X] [recursivite/ppcm2](./recursivite/ppcm2/) Résolu - Difficulté 2/5 (5 min)
-
+- [X] [recursivite/yetanothersuite](./recursivite/yetanothersuite/) Résolu - Difficulté 2/5 (5 min)
 
 - [X] [recursivite/suitemoinssimple2](./recursivite/suitemoinssimple2/) Résolu - Difficulté 3/5 (10 min)
 - [X] [recursivite/recherche](./recursivite/recherche/) Résolu - Difficulté 3/5 (10 min)
