@@ -91,5 +91,6 @@ Exercices Effectués:
 - [X] [tri/valabs](./tri/valabs/) Résolu - Difficulté 3/5 (10 min)
 - [X] [structures/livres](./structures/livres/) Résolu - Difficulté 3/5 (10 min)
 - [X] [structures/fieldval](./structures/fieldval/) Résolu - Difficulté 1/5 (1 min)
+- [X] [structures/queue](./structures/queue/) Résolu - Difficulté 2/5 (5 min)
 
 <!-- 🎉  -->
