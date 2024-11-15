@@ -98,4 +98,6 @@ Exercices Effectués:
 - [X] [recursivite/suiteconditionnelle2](./recursivite/suiteconditionnelle2/) Résolu - Difficulté 2/5 (5 min)
 - [X] [divers/envers](./divers/envers/) Résolu - Difficulté 2/5 (5 min)
 
+- [X] [recherche/doublons6](./recherche/doublons6/) Résolu - Difficulté 2/5 (5 min)
+
 <!-- 🎉  -->

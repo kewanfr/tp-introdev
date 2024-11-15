@@ -14,5 +14,28 @@ On dispose d'un tableau d'entiers de longueur n et on suppose qu'il contient exa
 */
 
 func doublons(tab []int) (ok bool) {
-	return
+	min := tab[0]
+	max := tab[0]
+
+	for i := 0; i < len(tab); i ++ {
+		if tab[i] <= min{
+			min = tab[i]
+		}
+
+		if tab[i] >= max {
+			max = tab[i]
+		}
+	}
+
+	ok = tab[0] == min
+	prec := tab[0]
+	for j := 1; j < len(tab); j ++ {
+		if tab[j] != prec + 1 {
+			ok = false
+		}
+		prec = tab[j]
+	}
+
+
+	return ok
 }
