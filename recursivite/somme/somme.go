@@ -16,5 +16,12 @@ Pour cet exercice les boucles for sont interdites.
 */
 
 func somme(t []int) (s int) {
-	return
+
+	if len(t) == 0 {
+		return 0
+	} else if len(t) == 1 {
+		return t[0]
+	}
+
+	return somme(t[:len(t) / 2]) + somme(t[len(t) / 2:])
 }
