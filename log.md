@@ -93,5 +93,6 @@ Exercices Effectués:
 - [X] [structures/fieldval](./structures/fieldval/) Résolu - Difficulté 1/5 (1 min)
 - [X] [structures/queue](./structures/queue/) Résolu - Difficulté 2/5 (5 min)
 - [X] [structures/majeur](./structures/majeur/) Résolu - Difficulté 1/5 (1 min)
+- [X] [recursivite/suite2](./recursivite/suite2/) Résolu - Difficulté 1/5 (1 min)
 
 <!-- 🎉  -->

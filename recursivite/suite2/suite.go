@@ -16,5 +16,9 @@ Pour cet exercice, les boucles for sont interdites.
 */
 
 func terme(n uint) (un int) {
-	return un
+
+	if n == 0 {
+		return 2
+	}
+	return 2*terme(n - 1) + 1
 }
