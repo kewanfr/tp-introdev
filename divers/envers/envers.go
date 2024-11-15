@@ -18,4 +18,10 @@ envers appelée sur le tableau [1 2 3] doit le transformer en [3 2 1]
 2021-2022, test3, exercice 0
 */
 
-func envers(t []int) {}
+func envers(t []int) {
+	for i := 0; i < len(t) / 2; i ++ {
+		temp := t[i]
+		t[i] = t[len(t) - 1 - i]
+		t[len(t) - 1 - i] = temp
+	}
+}

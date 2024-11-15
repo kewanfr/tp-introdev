@@ -96,5 +96,6 @@ Exercices Effectués:
 - [X] [recursivite/suite2](./recursivite/suite2/) Résolu - Difficulté 1/5 (1 min)
 - [X] [recursivite/suite3](./recursivite/suite3/) Résolu - Difficulté 1/5 (1 min)
 - [X] [recursivite/suiteconditionnelle2](./recursivite/suiteconditionnelle2/) Résolu - Difficulté 2/5 (5 min)
+- [X] [divers/envers](./divers/envers/) Résolu - Difficulté 2/5 (5 min)
 
 <!-- 🎉  -->
