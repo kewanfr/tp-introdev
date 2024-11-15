@@ -104,6 +104,7 @@ Exercices Effectués:
 - [X] [recursivite/yetanothersuite](./recursivite/yetanothersuite/) Résolu - Difficulté 2/5 (5 min)
 - [X] [tri/tri2](./tri/tri2/) Résolu - Difficulté 2/5 (5 min)
 - [X] [recursivite/syracuse](./recursivite/syracuse/) Résolu - Difficulté 3/5 (10 min)
+- [X] [recursivite/pgcd](./recursivite/pgcd/) Résolu - Difficulté 2/5 (5 min)
 
 - [X] [recursivite/suitemoinssimple2](./recursivite/suitemoinssimple2/) Résolu - Difficulté 3/5 (10 min)
 - [X] [recursivite/recherche](./recursivite/recherche/) Résolu - Difficulté 3/5 (10 min)
