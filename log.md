@@ -89,5 +89,6 @@ Exercices Effectués:
 # Le 15/11/2024
 
 - [X] [tri/valabs](./tri/valabs/) Résolu - Difficulté 3/5 (10 min)
+- [X] [structures/livres](./structures/livres/) Résolu - Difficulté 3/5 (10 min)
 
 <!-- 🎉  -->

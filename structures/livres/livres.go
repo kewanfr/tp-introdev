@@ -19,4 +19,25 @@ type livre struct {
 	numPages int
 }
 
-func trier(tab []livre, parPrix bool) {}
+func obtenirFonction(parPrix bool) func(a, b livre) bool {
+	if parPrix {
+		return func(a, b livre) bool { return a.prix > b.prix}
+	}
+	return func(a, b livre) bool { return a.numPages < b.numPages }
+}
+
+func trier(tab []livre, parPrix bool) {
+
+	condition := obtenirFonction(parPrix)
+
+	var i, j int
+	for i = 1; i < len(tab); i ++ {
+		val := tab[i]
+		for j = i; j > 0 && condition(tab[j-1], val); j-- {
+			tab[j] = tab[j-1]
+		}
+
+		tab[j] = val
+	}
+
+}
