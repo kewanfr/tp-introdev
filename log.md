@@ -86,5 +86,8 @@ Exercices Effectués:
 - [X] [divers/moyenne](./divers/moyenne/) Résolu - Difficulté 1/5 (1 min)
 - [X] [recherche/egalite2](./recherche/egalite2/) Résolu - Difficulté 2/5 (5 min)
 
+# Le 15/11/2024
+
+- [X] [tri/valabs](./tri/valabs/) Résolu - Difficulté 3/5 (10 min)
 
 <!-- 🎉  -->
