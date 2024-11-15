@@ -16,5 +16,16 @@ Vous ne devez pas utiliser de boucles for dans cet exercice.
 */
 
 func positifs(t []int) (num int) {
-	return
+
+	if len(t) == 0 {
+		return 0
+	} else if len(t) == 1 {
+		if t[0] > 0 {
+			return 1
+		} else {
+			return 0
+		}
+	}
+
+	return positifs(t[:len(t) / 2]) + positifs(t[len(t)/2:])
 }

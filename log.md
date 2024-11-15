@@ -106,7 +106,9 @@ Exercices Effectués:
 - [X] [recursivite/syracuse](./recursivite/syracuse/) Résolu - Difficulté 3/5 (10 min)
 - [X] [recursivite/pgcd](./recursivite/pgcd/) Résolu - Difficulté 2/5 (5 min)
 
+
 - [X] [recursivite/suitemoinssimple2](./recursivite/suitemoinssimple2/) Résolu - Difficulté 3/5 (10 min)
 - [X] [recursivite/recherche](./recursivite/recherche/) Résolu - Difficulté 3/5 (10 min)
+- [X] [recherche/positifs](./recherche/positifs/) Résolu - Difficulté 3/5 (10 min)
 
 <!-- 🎉  -->
