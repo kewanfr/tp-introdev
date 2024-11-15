@@ -20,5 +20,5 @@ type student struct {
 }
 
 func getAge(s student) (a int) {
-	return
+	return s.age
 }
