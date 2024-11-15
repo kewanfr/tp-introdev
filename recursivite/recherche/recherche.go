@@ -22,5 +22,12 @@ deuxième moitié de tab.
 */
 
 func recherche(tab []int, v int) (existe bool) {
-	return existe
+
+	if len(tab) == 0 {
+		return false
+	}else if len(tab) == 1 {
+		return tab[0] == v
+	}
+
+	return recherche(tab[:len(tab)/2], v) || recherche(tab[len(tab)/2:], v) 
 }
