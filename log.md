@@ -99,5 +99,6 @@ Exercices Effectués:
 - [X] [divers/envers](./divers/envers/) Résolu - Difficulté 2/5 (5 min)
 
 - [X] [recherche/doublons6](./recherche/doublons6/) Résolu - Difficulté 2/5 (5 min)
+- [X] [recursivite/ppcm](./recursivite/ppcm/) Résolu - Difficulté 2/5 (5 min)
 
 <!-- 🎉  -->

@@ -27,6 +27,18 @@ arguments qui soit égal à 0.
 2021-2022, test2, exercice 5
 */
 
+func getPPCM(x, y, x0, y0 uint) (z uint) {
+	if x == y {
+		return x
+	} else if x < y {
+		return getPPCM(x + x0, y, x0, y0)
+	}
+	
+	return getPPCM(x, y + y0, x0, y0)
+	
+}
+
 func ppcm(x, y uint) (z uint) {
-	return z
+
+	return getPPCM(x, y, x, y)
 }
