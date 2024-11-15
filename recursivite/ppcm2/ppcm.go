@@ -22,6 +22,22 @@ nombres considérés qui soit égal à 0.
 - z : le ppcm des entiers contenus dans tab0
 */
 
+func getPPCM(x, y, x0, y0 uint) (z uint) {
+	if x == y {
+		return x
+	} else if x < y {
+		return getPPCM(x + x0, y, x0, y0)
+	}
+	
+	return getPPCM(x, y + y0, x0, y0)
+}
+
 func ppcm(tab0 []uint) (z uint) {
+
+	z = getPPCM(tab0[0], tab0[1], tab0[0], tab0[1])
+
+	for i:= 2; i < len(tab0); i++ {
+		z = getPPCM(z, tab0[i], z, tab0[i])
+	}
 	return z
 }
