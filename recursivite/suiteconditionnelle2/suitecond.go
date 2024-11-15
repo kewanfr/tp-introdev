@@ -18,5 +18,14 @@ La fonction u calcule les termes de cette suite.
 */
 
 func u(n int) (un int) {
-	return
+
+	if (n == 0) {
+		return 5
+	}
+
+	if n % 2 == 0 {
+		return u(n-1) - 2
+	}else {
+		return u(n-1)* 3
+	}
 }
