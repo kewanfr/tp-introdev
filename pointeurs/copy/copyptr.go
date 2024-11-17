@@ -13,4 +13,10 @@ dans un tableau.
 2021-2022, test2, exercice 1
 */
 
-func copyptr(x int, tab []*int) {}
+func copyptr(x int, tab []*int) {
+
+  for _, v := range tab {
+    *v = x
+  }
+
+}

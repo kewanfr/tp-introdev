@@ -113,4 +113,9 @@ Exercices Effectués:
 - [X] [recherche/positifs](./recherche/positifs/) Résolu - Difficulté 3/5 (10 min)
 - [X] [structures/pages](./structures/pages/) Résolu - Difficulté 2/5 (5 min)
 
+## Le 18/11/2024
+
+- [X] [pointeurs/copy](./pointeurs/copy/) Résolu - Difficulté 2/5 (5 min)
+
+
 <!-- 🎉  -->
