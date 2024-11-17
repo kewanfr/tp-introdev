@@ -117,6 +117,7 @@ Exercices Effectués:
 
 - [X] [pointeurs/copy](./pointeurs/copy/) Résolu - Difficulté 2/5 (5 min)
 - [X] [pointeurs/produit](./pointeurs/produit/) Résolu - Difficulté 2/5 (5 min)
+- [X] [recursivite/pairs](./recursivite/pairs) Résolu - Difficulté 2/5 (5 min)
 
 
 <!-- 🎉  -->
