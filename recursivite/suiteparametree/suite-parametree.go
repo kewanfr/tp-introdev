@@ -15,6 +15,14 @@ Pour cet exercice, les boucles for sont interdites.
 2022-2023, test 2, exercice 6
 */
 
+func suite(n int, nInit int) (un int) {
+	if n == 0 {
+		return nInit
+	}
+
+	return 2*suite(n-1, nInit) + nInit
+}
+
 func termeparam(n int) (un int) {
-	return un
+	return suite(n, n)
 }

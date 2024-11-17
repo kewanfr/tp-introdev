@@ -14,7 +14,7 @@ Exercices Effectués:
 - [X] [structures/titre](./structures/titre) Résolu - Difficulté: 1/5
 - [X] [pointeurs/setval](./pointeurs/setval) Résolu - Difficulté: 1/5
 - [X] [recursivite/conway](./recursivite/conway) Résolu - Difficulté: 4/5
-- [X] [recursivite/suite-conditionnelle](./recursivite/suiteconditionnelle/) Résolu - Difficulté: 2/5
+- [X] [recursivite/suiteconditionnelle](./recursivite/suiteconditionnelle/) Résolu - Difficulté: 2/5
 - [X] [recursivite/factorielle](./recursivite/factorielle) Résolu - Difficulté: 2/5
 - [X] [pointeurs/somme](./pointeurs/somme) Résolu - Difficulté: 2/5
 - [X] [recherche/egalite](./recherche/egalite) Résolu - Difficulté: 2/5
@@ -118,6 +118,7 @@ Exercices Effectués:
 - [X] [pointeurs/copy](./pointeurs/copy/) Résolu - Difficulté 2/5 (5 min)
 - [X] [pointeurs/produit](./pointeurs/produit/) Résolu - Difficulté 2/5 (5 min)
 - [X] [recursivite/pairs](./recursivite/pairs) Résolu - Difficulté 2/5 (5 min)
+- [X] [recursivite/suiteparametree](./recursivite/suiteparametree/) Résolu - Difficulté 3/5 (5 min)
 
 
 <!-- 🎉  -->
