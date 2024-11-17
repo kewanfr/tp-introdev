@@ -116,6 +116,7 @@ Exercices Effectués:
 ## Le 18/11/2024
 
 - [X] [pointeurs/copy](./pointeurs/copy/) Résolu - Difficulté 2/5 (5 min)
+- [X] [pointeurs/produit](./pointeurs/produit/) Résolu - Difficulté 2/5 (5 min)
 
 
 <!-- 🎉  -->
