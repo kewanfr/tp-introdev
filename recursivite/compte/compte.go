@@ -22,5 +22,15 @@ de tab et du nombre de fois où v apparaît dans la deuxième moité de tab.
 */
 
 func compte(tab []int, v int) (num int) {
-	return num
+
+	if len(tab) == 0{
+		return 0
+	} else if len(tab) == 1{
+		if tab[0] == v {
+			return 1
+		}
+		return 0
+	}
+
+	return compte(tab[:len(tab) - 1], v) + compte(tab[len(tab) - 1:], v)
 }

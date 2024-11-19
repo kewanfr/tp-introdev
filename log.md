@@ -132,6 +132,7 @@ Exercices Effectués:
 
 - [X] [recursivite/encoreunesuite](./recursivite/encoreunesuite/) Résolu - Difficulté 2/5 (5 min)
 - [X] [structures/longueur](./structures/longueur/) Résolu - Difficulté 3/5 (5 min)
+- [X] [recursivite/compte](./recursivite/compte/) Résolu - Difficulté 2/5 (5 min)
 
 
 <!-- 🎉  -->
