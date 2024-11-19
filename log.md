@@ -120,5 +120,8 @@ Exercices Effectués:
 - [X] [recursivite/pairs](./recursivite/pairs) Résolu - Difficulté 2/5 (5 min)
 - [X] [recursivite/suiteparametree](./recursivite/suiteparametree/) Résolu - Difficulté 3/5 (5 min)
 
+## Le 19/11/2024
+
+- [X] [tri/pairsimpairs](./tri/pairsimpairs/) Résolu - Difficulté 4/5 (20 min)
 
 <!-- 🎉  -->
