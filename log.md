@@ -123,5 +123,6 @@ Exercices Effectués:
 ## Le 19/11/2024
 
 - [X] [tri/pairsimpairs](./tri/pairsimpairs/) Résolu - Difficulté 4/5 (20 min)
+- [X] [tri/deuxcriteres](./tri/deuxcriteres/) Résolu - Difficulté 3/5 (5 min)
 
 <!-- 🎉  -->
