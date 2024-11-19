@@ -12,4 +12,17 @@ On rappel que la comparaison "<" peut être utilisées sur des chaînes de carac
 2023-2024, test 3, exercice 2
 */
 
-func alphabetique(dico []string) {}
+func alphabetique(dico []string) {
+
+	var i, j int
+	for i = 0; i < len(dico); i ++ {
+		val := dico[i]
+
+		for j = i; j > 0 && dico[j - 1] > val; j -- {
+			dico[j] = dico[j - 1]
+		}
+
+		dico[j] = val
+	}
+
+}

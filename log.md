@@ -128,5 +128,6 @@ Exercices Effectués:
 - [X] [tri/longueur](./tri/longueur/) Résolu - Difficulté 3/5 (5 min)
 - [X] [tri/vraifaux](./tri/vraifaux/) Résolu - Difficulté 3/5 (5 min)
 - [X] [tri/bienrange](./tri/bienrange/) Résolu - Difficulté 2/5 (1 min)
+- [X] [tri/alphabetique](./tri/alphabetique/) Résolu - Difficulté 2/5 (5 min)
 
 <!-- 🎉  -->
