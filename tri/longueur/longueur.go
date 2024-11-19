@@ -10,4 +10,16 @@ On souhaite trier un tableau de chaînes de caractères (minuscules sans accents
 2022-2023, test3, exercice 1
 */
 
-func trier(tab []string) {}
+func trier(tab []string) {
+	var i, j int
+
+	for i = 1; i < len(tab); i ++ {
+		val := tab[i]
+
+		for j = i; j > 0 && ((len(tab[j - 1]) == len(val) && tab[j - 1] > val) || len(tab[j - 1]) < len(val)); j -- {
+			tab[j] = tab[j-1]
+		}
+
+		tab[j] = val
+	}
+}

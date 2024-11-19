@@ -125,5 +125,6 @@ Exercices Effectués:
 - [X] [tri/pairsimpairs](./tri/pairsimpairs/) Résolu - Difficulté 4/5 (20 min)
 - [X] [tri/deuxcriteres](./tri/deuxcriteres/) Résolu - Difficulté 3/5 (5 min)
 - [X] [tri/decroissant](./tri/decroissant/) Résolu - Difficulté 2/5 (5 min)
+- [X] [tri/longueur](./tri/longueur/) Résolu - Difficulté 3/5 (5 min)
 
 <!-- 🎉  -->
