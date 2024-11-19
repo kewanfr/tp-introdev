@@ -22,6 +22,17 @@ func TestExemple(t *testing.T) {
 	}
 }
 
+
+func TestExemple2(t *testing.T) {
+	deb := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+	res := []int{2, 4, 6, 8, 10, 9, 7, 5, 3, 1}
+	tab := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+	tri(tab)
+	if !equal(tab, res) {
+		t.Error("Une fois trié", deb, "devrait donner", res, "mais donne", tab)
+	}
+}
+
 // Fonction pour vérifier l'égalité de deux tableaux
 
 func equal(t1, t2 []int) bool {
