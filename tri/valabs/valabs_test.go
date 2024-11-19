@@ -1,7 +1,9 @@
 package valabs
 
-import "testing"
-import "fmt"
+import (
+	"fmt"
+	"testing"
+)
 
 func TestVide(t *testing.T) {
 	tab := []int{}

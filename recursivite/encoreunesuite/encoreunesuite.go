@@ -22,5 +22,16 @@ Attention, les boucles for sont interdites pour cet exercice
 */
 
 func terme(n uint) (un int) {
-	return
+
+	if n == 0 {
+		return 3
+	}
+
+	uNm1 := terme(n - 1)
+
+	if uNm1 > 1000 {
+		return uNm1 / 33
+	}
+
+	return uNm1 + 77
 }
