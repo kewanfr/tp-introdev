@@ -131,8 +131,7 @@ Exercices Effectués:
 - [X] [tri/alphabetique](./tri/alphabetique/) Résolu - Difficulté 2/5 (5 min)
 
 - [X] [recursivite/encoreunesuite](./recursivite/encoreunesuite/) Résolu - Difficulté 2/5 (5 min)
-
-
+- [X] [structures/longueur](./structures/longueur/) Résolu - Difficulté 3/5 (5 min)
 
 
 <!-- 🎉  -->
