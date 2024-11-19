@@ -10,4 +10,16 @@ La fonction decroissant doit trier un tableau d'entiers dans l'ordre décroissan
 2022-2023, test 4, exercice 7
 */
 
-func decroissant(tab []int) {}
+func decroissant(tab []int) {
+	var i, j int
+
+	for i = 1; i < len(tab); i ++ {
+		val := tab[i]
+
+		for j = i; j > 0 && tab[j - 1] < val; j -- {
+			tab[j] = tab[j - 1]
+		}
+
+		tab[j] = val
+	}
+}
