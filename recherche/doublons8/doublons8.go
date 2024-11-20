@@ -14,5 +14,64 @@ On dispose d'un tableau d'entiers de longueur n et on suppose qu'il contient exa
 */
 
 func doublons(tab []int) (ok bool) {
-	return
+
+	var t map[int]int = make(map[int]int)
+	
+	for i:= 0; i < len(tab); i++ {
+		if _, ok := t[tab[i]]; ok {
+			t[tab[i]] += 1
+		} else {
+			t[tab[i]] = 1
+		}
+	}
+
+
+	var n int = len(tab)
+	var p int = 0
+	ok = true
+
+	var k, kMax int
+	k = tab[0]
+	kMax = tab[0]
+
+	for i, v := range t {
+		if p == 0 {
+			p = v
+		}
+
+		if v != p {
+			ok = false
+		}
+
+		if i < k {
+			k = i
+		}
+
+		if i > kMax {
+			kMax = i
+		}
+	}
+
+	if !ok {
+		return ok
+	}
+
+	if kMax != k + (n/p) - 1 {
+		ok = false
+		return ok
+	}
+
+	for nb := k; nb < kMax; nb++ {
+		estDedans := false
+		for _, val := range tab {
+			if val == nb {
+				estDedans = true
+			}
+		}
+		if !estDedans {
+			ok = false
+		}
+	}
+
+	return ok
 }

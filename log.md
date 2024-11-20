@@ -134,5 +134,8 @@ Exercices Effectués:
 - [X] [structures/longueur](./structures/longueur/) Résolu - Difficulté 3/5 (5 min)
 - [X] [recursivite/compte](./recursivite/compte/) Résolu - Difficulté 2/5 (5 min)
 
+## Le 20/11/2024
+
+- [X] [recherche/doublons8](./recherche/doublons8/) Résolu - Difficulté 2/5 (5 min)
 
 <!-- 🎉  -->
