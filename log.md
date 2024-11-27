@@ -150,4 +150,6 @@ Exercices Effectués:
 - [X] [fichiers/file2struct](./fichiers/file2struct/) Résolu - Difficulté 3/5 (5 min)
 - [X] [fichiers/unmot](./fichiers/unmot/) Résolu - Difficulté 3/5 (5 min)
 
+- [X] [recherche/classement](./recherche/classement/) Résolu - Difficulté 2/5 (5 min)
+
 <!-- 🎉  -->
