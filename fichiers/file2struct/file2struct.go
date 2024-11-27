@@ -1,5 +1,11 @@
 package file2struct
 
+import (
+	"bufio"
+	"os"
+	"strconv"
+)
+
 /*
 On dispose de fichiers contenant des informations sur des étudiants (nom, prénom, age) et on souhaite enregistrer ces informations dans une structure de données en Go.
 
@@ -24,5 +30,27 @@ type student struct {
 }
 
 func file2struct(fName string) (res student) {
-	return
+
+	file, _ := os.Open(fName)
+
+	scanner := bufio.NewScanner(file)
+
+	nLine := 0
+
+	res = student{}
+
+	for scanner.Scan() {
+		line := scanner.Text()
+		if nLine == 0 {
+			res.firstName = line
+		} else if nLine == 1 {
+			res.lastName = line
+		} else if nLine == 2 {
+			res.age, _ = strconv.Atoi(line)
+		}
+
+		nLine++
+	}
+
+	return res
 }
