@@ -15,5 +15,20 @@ package ensembles
 */
 
 func inclus(t1, t2 []int) (estInclus bool) {
-	return
+
+	estInclus = true
+
+	for i := 0; i < len(t1); i ++ {
+		nbInclus := 0
+		for j := 0; j < len(t2); j++ {
+			if t2[j] == t1[i] {
+				nbInclus++
+			}
+		}
+		if nbInclus != 1{
+			estInclus = false
+		}
+	}
+
+	return estInclus
 }
