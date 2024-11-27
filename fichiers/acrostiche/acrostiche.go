@@ -14,6 +14,30 @@ de chaque ligne d'un fichier, en ignorant les lignes vides.
         existe toujours)
 */
 
+import (
+	"bufio"
+	"os"
+)
+
 func acrostiche(fName string) (mot string) {
+
+  mot = ""
+
+  file, err := os.Open(fName)
+
+  if err != nil {
+    return ""
+  }
+
+  scanner := bufio.NewScanner(file)
+
+  for scanner.Scan(){
+    line := scanner.Text()
+
+    if len(line) > 0{
+      mot += string(line[0])
+    }
+  }
+  
 	return mot
 }

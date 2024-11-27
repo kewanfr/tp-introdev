@@ -138,4 +138,9 @@ Exercices Effectués:
 
 - [X] [recherche/doublons8](./recherche/doublons8/) Résolu - Difficulté 2/5 (5 min)
 
+## Le 27/11/2024
+
+- [X] [recherche/inclusion](./recherche/inclusion/) Résolu - Difficulté 1/5 (5 min)
+- [X] [fichiers/acrostiche](./fichiers/acrostiche/) Résolu - Difficulté 2/5 (5 min)
+
 <!-- 🎉  -->
