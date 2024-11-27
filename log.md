@@ -151,5 +151,6 @@ Exercices Effectués:
 - [X] [fichiers/unmot](./fichiers/unmot/) Résolu - Difficulté 3/5 (5 min)
 
 - [X] [recherche/classement](./recherche/classement/) Résolu - Difficulté 2/5 (5 min)
+- [X] [structures/classer](./structures/classer/) Résolu - Difficulté 2/5 (5 min)
 
 <!-- 🎉  -->

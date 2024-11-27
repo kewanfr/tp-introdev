@@ -24,6 +24,34 @@ type etudiant struct {
 	moyenne     float64
 }
 
+func aAprèsB(a, b etudiant) bool {
+	if a.moyenne == b.moyenne {
+
+		if a.nom == b.nom{
+			return a.prenom > b.prenom
+		}
+
+		return a.nom > b.nom
+
+	}
+	return a.moyenne < b.moyenne
+}
+
 func classer(promo []etudiant) (classement []etudiant) {
+
+	classement = append(classement, promo...)
+
+	var i, j int
+	for i = 0; i < len(classement); i ++{
+		v := classement[i]
+		
+		for j = i - 1; j >= 0 && aAprèsB(classement[j], v); j -- {
+			classement[j + 1] = classement[j]
+		}
+
+		classement[j + 1] = v
+	}
+
+
 	return classement
 }
