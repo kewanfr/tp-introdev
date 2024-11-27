@@ -1,5 +1,11 @@
 package file2tab
 
+import (
+	"bufio"
+	"os"
+	"strings"
+)
+
 /*
 On souhaite lire un fichier et stocker les mots qu'il contient dans un tableau de chaines de caractères. C'est le travail de la fonction file2tab.
 
@@ -18,5 +24,17 @@ Le paquet strings est interdit.
 */
 
 func file2tab(fName string) (res []string) {
-	return
+
+	contenu := ""
+
+	file, _ := os.Open(fName)
+
+	scanner := bufio.NewScanner(file)
+	for scanner.Scan(){
+		contenu += scanner.Text()
+	}
+
+	res = strings.Split(contenu, " ")
+
+	return res
 }

@@ -146,5 +146,6 @@ Exercices Effectués:
 - [X] [fichiers/nombre](./fichiers/nombre/) Résolu - Difficulté 2/5 (5 min)
 - [X] [fichiers/lignes](./fichiers/lignes/) Résolu - Difficulté 2/5 (5 min)
 - [X] [fichiers/lignes2](./fichiers/lignes2/) Résolu - Difficulté 2/5 (5 min)
+- [X] [fichiers/file2tab](./fichiers/file2tab/) Résolu - Difficulté 3/5 (5 min)
 
 <!-- 🎉  -->
