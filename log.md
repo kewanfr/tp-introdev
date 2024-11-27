@@ -143,5 +143,6 @@ Exercices Effectués:
 - [X] [recherche/inclusion](./recherche/inclusion/) Résolu - Difficulté 1/5 (5 min)
 - [X] [fichiers/acrostiche](./fichiers/acrostiche/) Résolu - Difficulté 2/5 (5 min)
 - [X] [fichiers/filtre](./fichiers/filtre/) Résolu - Difficulté 3/5 (10 min)
+- [X] [fichiers/nombre](./fichiers/nombre/) Résolu - Difficulté 1/5 (10 min)
 
 <!-- 🎉  -->

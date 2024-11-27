@@ -1,5 +1,7 @@
 package nombre
 
+import "os"
+
 /*
 La fonction nombre doit dire si le fichier dont le chemin est donné en paramètre
 contient ou ne contient pas le chiffre 1. On suppose que le fichier en question
@@ -19,5 +21,15 @@ fichier).
 */
 
 func nombre(chemin string) (contient bool) {
+
+    data, _ := os.ReadFile(chemin)
+    contient = false
+
+    for i := 0; i < len(data); i ++ {
+        if string(data[i]) == "1"{
+            contient = true
+        }
+    }
+
 	return contient
 }
