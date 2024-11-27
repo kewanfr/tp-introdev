@@ -1,6 +1,11 @@
 package unmot
 
-import "errors"
+import (
+	"bufio"
+	"errors"
+	"os"
+	"strings"
+)
 
 /*
 Étant donné un nom de fichier, on souhaite obtenir le premier mot du fichier ou, si ce n'est pas possible (le fichier n'existe pas ou ne contient pas de mot), une erreur. Pour simplifier, on considérera qu'il n'existe que deux sortes de fichiers :
@@ -21,5 +26,29 @@ import "errors"
 var errImpossible error = errors.New("Le fichier n'existe pas ou il ne contient aucun mot")
 
 func premiermot(fName string) (mot string, err error) {
-	return
+
+	file, err := os.Open(fName)
+
+	if err != nil {
+		return "", errImpossible
+	}
+
+	scanner := bufio.NewScanner(file)
+
+	firstLine := ""
+
+	for scanner.Scan() && len(firstLine) == 0 {
+		line := scanner.Text()
+		if len(line) != 0 {
+			firstLine = line
+		}
+	}
+
+	if len(firstLine) == 0 {
+		return "", errImpossible
+	}
+
+	mot = strings.Split(firstLine, " ")[0]
+
+	return mot, err
 }
