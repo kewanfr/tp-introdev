@@ -14,5 +14,14 @@ package plusgrand
 */
 
 func plusgrand(t []int) (x int) {
-	return
+
+	x = t[0]
+
+	for i := 1; i < len(t); i ++ {
+		if t[i] > x{
+			x = t[i]
+		}
+	}
+
+	return x
 }
