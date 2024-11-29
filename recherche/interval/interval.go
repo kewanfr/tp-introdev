@@ -14,5 +14,14 @@ package interval
 */
 
 func dansInterval(t []int) (res int) {
-	return
+
+	res = -1
+
+	for i := 0; i < len(t); i ++ {
+		if t[i] <= 8 && t[i] >= 5 {
+			res = t[i]
+		}
+	}
+
+	return res
 }

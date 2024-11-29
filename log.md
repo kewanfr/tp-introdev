@@ -160,6 +160,7 @@ Exercices Effectués:
 - [X] [recherche/matrice](./recherche/matrice/) Résolu - Difficulté 3/5 (10 min)
 - [X] [recherche/tabtat](./recherche/tabtat/) Résolu - Difficulté 2/5 (5 min)
 - [X] [recherche/occurrencesmax](./recherche/occurrencesmax/) Résolu - Difficulté 2/5 (5 min)
+- [X] [recherche/interval](./recherche/interval/) Résolu - Difficulté 2/5 (5 min)
 
 
 <!-- 🎉  -->
