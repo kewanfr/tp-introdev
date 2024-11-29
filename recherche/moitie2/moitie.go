@@ -14,5 +14,14 @@ La fonction moitieDePairs indique si au moins de la moitié des nombres contenus
 */
 
 func moitieDePairs(t []int) (reponse bool) {
-	return
+
+	nbPairs := 0
+
+	for i := 0; i < len(t); i ++ {
+		if t[i] % 2 == 0 {
+			nbPairs++
+		}
+	}
+
+	return nbPairs > len(t) / 2
 }

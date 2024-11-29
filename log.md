@@ -156,6 +156,7 @@ Exercices Effectués:
 ## Le 29/11/2024
 
 - [X] [recherche/plusgrand](./recherche/plusgrand/) Résolu - Difficulté 1/5 (5 min)
+- [X] [recherche/moitie2](./recherche/moitie2/) Résolu - Difficulté 2/5 (5 min)
 
 
 <!-- 🎉  -->
