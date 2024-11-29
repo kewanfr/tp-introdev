@@ -157,6 +157,7 @@ Exercices Effectués:
 
 - [X] [recherche/plusgrand](./recherche/plusgrand/) Résolu - Difficulté 1/5 (5 min)
 - [X] [recherche/moitie2](./recherche/moitie2/) Résolu - Difficulté 2/5 (5 min)
+- [X] [recherche/matrice](./recherche/matrice/) Résolu - Difficulté 3/5 (10 min)
 
 
 <!-- 🎉  -->
