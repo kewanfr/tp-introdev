@@ -159,6 +159,7 @@ Exercices Effectués:
 - [X] [recherche/moitie2](./recherche/moitie2/) Résolu - Difficulté 2/5 (5 min)
 - [X] [recherche/matrice](./recherche/matrice/) Résolu - Difficulté 3/5 (10 min)
 - [X] [recherche/tabtat](./recherche/tabtat/) Résolu - Difficulté 2/5 (5 min)
+- [X] [recherche/occurrencesmax](./recherche/occurrencesmax/) Résolu - Difficulté 2/5 (5 min)
 
 
 <!-- 🎉  -->
