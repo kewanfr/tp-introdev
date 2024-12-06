@@ -18,6 +18,24 @@ type rectangle struct {
 	longueur int
 }
 
+func estPlusGrand(a, b rectangle) bool {
+	return a.largeur*a.longueur > b.largeur*b.longueur
+}
+
 func ranger(t []rectangle) (enOrdre []rectangle) {
-	return
+
+	enOrdre = append(enOrdre, t...)
+
+	var i, j int
+	for i = 0; i < len(enOrdre); i ++{
+		v := enOrdre[i]
+
+		for j = i - 1; j >= 0 && estPlusGrand(enOrdre[j], v); j -- {
+			enOrdre[j + 1] = enOrdre[j]
+		}
+
+		enOrdre[j + 1] = v
+	}
+
+	return enOrdre
 }
