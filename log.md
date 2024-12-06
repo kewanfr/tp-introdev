@@ -168,6 +168,7 @@ Exercices Effectués:
 - [X] [recursivite/suite4](./recursivite/suite4/) Résolu - Difficulté 1/5 (1 min)
 - [X] [recherche/trouvevra](./recherche/trouvevrai/) Résolu - Difficulté 1/5 (1 min)
 - [X] [recursivite/suiteconditionnelle3](./recursivite/suiteconditionnelle3/) Résolu - Difficulté 1/5 (1 min)
+- [X] [tri/longueur](./tri/tri/) Résolu - Difficulté 3/5 (5 min)
 
 
 <!-- 🎉  -->
