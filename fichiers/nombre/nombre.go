@@ -17,7 +17,7 @@ fichier).
              son contenu est à prendre en compte).
 
 # Info
-2021-2022, test3, exercice 2
+2021-2022, test3, exercice 9
 */
 
 func nombre(chemin string) (contient bool) {

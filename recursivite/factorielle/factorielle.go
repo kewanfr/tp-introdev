@@ -16,7 +16,7 @@ Vous ne devez pas utiliser de boucles, la fonction factorielle sera donc récurs
 factorielle(5) = 120
 
 # Info
-2021-2022, test3, exercice 0
+2021-2022, test3, exercice 1
 */
 
 // RÉSOLU - 11/10/2024

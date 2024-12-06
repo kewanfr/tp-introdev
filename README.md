@@ -99,46 +99,46 @@ N'oubliez pas, à chaque fois que vous résolvez un exercice, d'évaluer sa diff
 ### 2021-2022 Test machine 1
 
 #### basiques
-- alphabet
-- calcul
-- somme
+- alphabet (exercice 7)
+- calcul (exercice 0)
+- somme (exercice 4)
 
 #### pointeurs
-- double
-- varswitch
+- double (exercice 1)
+- varswitch (exercice 2)
 
 #### recherche
-- compte (remplace occurrences, qui est similaire)
-- doublons2
-- puissant
-- recherche
+- compte (exercice 6, remplace occurrences, qui est similaire)
+- doublons2 (exercice 8)
+- puissant (exercice 9)
+- recherche (exercice 5)
 
 #### recursivite
-- suite
+- suite (exercice 3)
 
 ### 2021-2022 Test machine 2
 
 basiques devient divers
 
 #### divers
-- chiffres
+- chiffres (exercice 9)
 
 #### pointeurs
-- add
-- copy
+- add (exercice 0)
+- copy (exercice 1)
 
 #### recherche
-- egalite
-- recherche2
+- egalite (exercice 3)
+- recherche2 (exercice 2)
 
 #### recursivite
-- conway
-- ppcm
-- syracuse
+- conway (exercice 8)
+- ppcm (exercice 5)
+- syracuse (exercice 4)
 
 #### tri
-- tri
-- tri2
+- tri (exercice 6)
+- tri2 (exercice 7)
 
 ### 23 novembre 2021
 
@@ -159,157 +159,197 @@ basiques devient divers
 ### 2021-2022 Test machine 3
 
 #### divers
-- envers
+- envers (exercice 0)
 
 #### fichiers
-- nombre
+- nombre (exercice 9)
 
 #### pointeurs
-- doubleptr
+- doubleptr (exercice 7)
 
 #### recursivite
-- compte
-- compter
-- factorielle
-- recherche
+- compte (exercice 3)
+- compter (exercice 4)
+- factorielle (exercice 1)
+- recherche (exercice 2)
 
 #### structures
-- classement
-- classer
-- longueur
+- classement (exercice 6)
+- classer (exercice 5)
+- longueur (exercice 8)
 
 ### 2022-2023 Test machine 1
 
 #### divers
-- bougies
-- decimales
-- divisible
+- bougies (exercice 5)
+- decimales (exercice 9)
+- divisible (exercice 4)
 
 #### pointeurs
-- setval
+- setval (exercice 0)
 
 #### recherche
-- deuxgrands
-- moitie
-- multipledetrois
-- plusquezero
+- deuxgrands (exercice 8)
+- moitie (exercice 6)
+- multipledetrois (exercice 2)
+- plusquezero (exercice 3)
 
 #### recursivite
-- suitemoinssimple
-- suitesimple
+- suitemoinssimple (exercice 7)
+- suitesimple (exercice 1)
 
 ### 2022-2023 Test machine 2
 
 #### pointeurs
-- somme
+- somme (exercice 2)
 
 #### recursivite
-- combinaisons
-- desert
-- pairs
-- parentheses
-- suite2
-- suiteconditionnelle
-- suitehistorique
-- suiteparametree
+- combinaisons (exercice 8)
+- desert (exercice 5)
+- pairs (exercice 3)
+- parentheses (exercice 9)
+- suite2 (exercice 0)
+- suiteconditionnelle (exercice 1)
+- suitehistorique (exercice 7)
+- suiteparametree (exercice 6)
 
 #### tri
-- pairsimpairs
+- pairsimpairs (exercice 4)
 
 ### 2022-2023 Test machine 3
 
 #### fichiers
-- filtre
-- unmot
+- filtre (exercice 6)
+- unmot (exercice 5)
 
 #### recursivite
-- encoreunesuite
+- encoreunesuite (exercice 7)
 
 #### structures
-- livres
-- pages
-- queue
-- queue2
-- titre
+- livres (exercice 4)
+- pages (exercice 3)
+- queue (exercice 8)
+- queue2 (exercice 9)
+- titre (exercice 2)
 
 #### tri
-- longueur
-- vraifaux
+- longueur (exercice 1)
+- vraifaux (exercice 0)
 
 ### 2022-2023 Test machine 4
 
 #### pointeurs
-- produit
+- produit (exercice 1)
 
 #### recherche
-- deuxpetits
-- interval
-- moitie2
-- positifs
+- deuxpetits (exercice 3)
+- interval (exercice 2)
+- moitie2 (exercice 4)
+- positifs (exercice 5)
 
 #### recursivite
-- suitesimple (mise à jour)
-- suitemoinssimple2
-- suiteparametree2
+- suitesimple (exercice 0, mise à jour)
+- suitemoinssimple2 (exercice 6)
+- suiteparametree2 (exercice 9)
 
 #### tri
-- decroissant (mise à jour)
-- deuxcriteres
+- decroissant (exercice 7, mise à jour)
+- deuxcriteres (exercice 8)
 
 ### 2023-2024 Test machine 1
 
 #### recherche
-- comptemax
-- comptevrai
-- dernier
-- interval2
-- multiplesdedeux
-- recherche (mise à jour)
+- comptemax (exercice 7)
+- comptevrai (exercice 2)
+- dernier (exercice 6)
+- interval2 (exercice 5)
+- multiplesdedeux (exercice 3)
+- recherche (exercice 0, mise à jour)
 
 #### recursivite
-- ateddybearpicnic
-- suitedouble
-- suitesimple2
+- ateddybearpicnic (exercice 9)
+- suitedouble (exercice 8)
+- suitesimple2 (exercice 1)
 
 #### tri
-- classement
+- classement (exercice 4)
 
 ### 2023-2024 Test machine 2
 
 #### divers
-- alphanum
+- alphanum (exercice 3)
 
 #### recherche
-- doublons6
-- doublons7
-- doublons8
-- egalite (mise à jour)
+- doublons6 (exercice 0)
+- doublons7 (exercice 7)
+- doublons8 (exercice 8)
+- egalite (exercice 6, mise à jour)
 
 #### recursivite
-- sequences
-- somme
-- yetanothersuite
+- sequences (exercice 9)
+- somme (exercice 2)
+- yetanothersuite (exercice 1)
 
 #### structures
-- contient
-- majeur
+- contient (exercice 5)
+- majeur (exercice 4)
 
 ### 2023-2024 Test machine 3
 
 #### divers
-- fibonacci
-- motdepasse
-- riz
+- fibonacci (exercice 9)
+- motdepasse (exercice 1)
+- riz (exercice 5)
 
 #### fichiers
-- file2struct
-- file2tab
+- file2struct (exercice 6)
+- file2tab (exercice 7)
 
 #### structures
-- fieldval
-- sortlist
-- sortstruct
-- sortstruct2
+- fieldval (exercice 0)
+- sortlist (exercice 8)
+- sortstruct (exercice 3)
+- sortstruct2 (exercice 4)
 
 #### tri
-- alphabetique (mise à jour)
+- alphabetique (exercice 2, mise à jour)
+
+### 2024-2025 Test machine 1
+
+#### divers
+- moyenne (exercice 2)
+
+#### recherche
+- egalite (exercice 6, déjà présent)
+- egalite2 (exercice 7, déjà présent)
+- inclusion (exercice 5)
+- manquant (exercice 8)
+- plusgrand (exercice 3)
+- recherche (exercice 0, déjà présent)
+
+#### recursivite
+- hanoi (exercice 9)
+- suite3 (exercice 1)
+- suiteconditionnelle2 (exercice 4)
+
+### 2024-2025 Test machine 2
+
+#### divers
+- mail (exercice 5)
+- palindrome (exercice 9)
+
+#### recherche
+- trouvevrai (exercice 1)
+
+#### recursivite
+- recherchemin (exercice 6)
+- suite4 (exercice 0)
+- suiteconditionnelle3 (exercice 2)
+
+#### structures
+- cycle (exercice 8)
+
+#### tri
+- longueur (exercice 3, l'ancien longueur devient longueur2)
+- rectangles (exercice 4)
+- rectangles2 (exercice 7)
