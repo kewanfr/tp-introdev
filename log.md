@@ -164,6 +164,8 @@ Exercices Effectués:
 
 ## Le 06/12/2024
 
+- [X] [recherche/maxoccurrences](./recherche/maxoccurrences/) Résolu - Difficulté 2/5 (5 min)
+
 ### Test Machine 2 2024-2025
 - [X] [recursivite/suite4](./recursivite/suite4/) Résolu - Difficulté 1/5 (1 min)
 - [X] [recherche/trouvevra](./recherche/trouvevrai/) Résolu - Difficulté 1/5 (1 min)
