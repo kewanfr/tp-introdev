@@ -171,6 +171,7 @@ Exercices Effectués:
 - [X] [tri/longueur](./tri/longueur/) Résolu - Difficulté 2/5 (5 min)
 - [X] [tri/rectangles](./tri/rectangles/) Résolu - Difficulté 2/5 (5 min)
 - [X] [tri/rectangles2](./tri/rectangles2/) Résolu - Difficulté 3/5 (5 min)
+- [X] [recursivite/recherchemin](./recursivite/recherchemin/) Résolu - Difficulté 3/5 (5 min)
 
 
 <!-- 🎉  -->

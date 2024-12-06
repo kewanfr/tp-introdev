@@ -16,5 +16,22 @@ Attention, pour cet exercice les boucles for sont interdites.
 */
 
 func trouvePlusPetit(t []int) (plusPetit int) {
-	return
+
+	if len(t) == 1 {
+		return t[0]
+	}
+	// if len(t) == 2 {
+	// 	if t[0] < t[1]{
+	// 		return t[0]
+	// 	}
+	// 	return t[1]
+	// }
+
+	p1 := trouvePlusPetit(t[:len(t)/2])
+	p2 := trouvePlusPetit(t[len(t)/2:])
+
+	if p1 < p2{
+		return p1
+	}
+	return p2
 }
