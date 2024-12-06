@@ -16,5 +16,11 @@ On souhaite savoir si la valeur "true" est présente au moins une fois dans un t
 
 func trouveVrai(t []bool) (pos int, existe bool) {
 
-	return
+	for i, v := range t{
+		if v == true{
+			return i, true
+		}
+	}
+
+	return -1, false
 }
