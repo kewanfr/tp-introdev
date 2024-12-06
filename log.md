@@ -170,6 +170,7 @@ Exercices Effectués:
 - [X] [recursivite/suiteconditionnelle3](./recursivite/suiteconditionnelle3/) Résolu - Difficulté 1/5 (1 min)
 - [X] [tri/longueur](./tri/longueur/) Résolu - Difficulté 2/5 (5 min)
 - [X] [tri/rectangles](./tri/rectangles/) Résolu - Difficulté 2/5 (5 min)
+- [X] [tri/rectangles2](./tri/rectangles2/) Résolu - Difficulté 3/5 (5 min)
 
 
 <!-- 🎉  -->
