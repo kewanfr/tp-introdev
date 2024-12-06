@@ -162,5 +162,10 @@ Exercices Effectués:
 - [X] [recherche/occurrencesmax](./recherche/occurrencesmax/) Résolu - Difficulté 2/5 (5 min)
 - [X] [recherche/interval](./recherche/interval/) Résolu - Difficulté 2/5 (5 min)
 
+## Le 06/12/2024
+
+### Test Machine 2 2024-2025
+- [X] [recursivite/suite4](./recursivite/suite4/) Résolu - Difficulté 1/5 (1 min)
+
 
 <!-- 🎉  -->

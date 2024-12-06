@@ -20,5 +20,13 @@ Attention, pour cet exercice les boucles for sont interdites.
 */
 
 func u(n int) (un int) {
-	return
+
+	if n == 0{
+		return 5
+	}
+	if n == 1 {
+		return 4
+	}
+
+	return 2*u(n - 2) - 3
 }
